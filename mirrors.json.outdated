@@ -52,3 +52,17 @@ Outdated mirrors:
             "ftp"
         ]
     },
+    {
+        "country": "Singapore",
+        "url": "https://download.nus.edu.sg/mirror/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
+        "country": "United_States",
+        "url": "https://mirror.clarkson.edu/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },

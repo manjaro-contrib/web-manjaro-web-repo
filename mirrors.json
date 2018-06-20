@@ -152,7 +152,7 @@
     },
     {
         "country": "China",
-        "url": "https://mirrors.sjtug.sjtu.edu.cn/manjaro",
+        "url": "https://mirrors.sjtug.sjtu.edu.cn/manjaro/",
         "protocols": [
             "https"
         ]
@@ -166,7 +166,7 @@
     },
     {
         "country": "Colombia",
-        "url": "http://mirror.upb.edu.co/manjaro",
+        "url": "http://mirror.upb.edu.co/manjaro/",
         "protocols": [
             "http"
         ]
@@ -403,13 +403,6 @@
     },
     {
         "country": "Poland",
-        "url": "http://mirror.chmuri.net/manjaro/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
-        "country": "Poland",
         "url": "https://mirror.tuchola-dc.pl/manjaro/",
         "protocols": [
             "https",
@@ -442,13 +435,6 @@
         "url": "http://mirror.truenetwork.ru/manjaro/",
         "protocols": [
             "http"
-        ]
-    },
-    {
-        "country": "Singapore",
-        "url": "https://download.nus.edu.sg/mirror/manjaro/",
-        "protocols": [
-            "https"
         ]
     },
     {
@@ -543,13 +529,6 @@
         "url": "http://distro.ibiblio.org/manjaro/",
         "protocols": [
             "http"
-        ]
-    },
-    {
-        "country": "United_States",
-        "url": "https://mirror.clarkson.edu/manjaro/",
-        "protocols": [
-            "https"
         ]
     },
     {
