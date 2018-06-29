@@ -308,8 +308,9 @@
     },
     {
         "country": "Hungary",
-        "url": "http://mirror.infotronik.hu/mirrors/pub/manjaro/",
+        "url": "https://quantum-mirror.hu/mirrors/pub/manjaro/",
         "protocols": [
+            "https",
             "http"
         ]
     },
