@@ -50,6 +50,14 @@
         ]
     },
     {
+        "country": "Belgium",
+        "url": "http://mirror.futureweb.be/manjaro",
+        "protocols": [
+            "https,"
+            "http"
+        ]
+    },
+    {
         "country": "Brazil",
         "url": "https://manjaro.c3sl.ufpr.br/",
         "protocols": [
