@@ -231,6 +231,13 @@
     },
     {
         "country": "Germany",
+        "url": "https://mirror.alpix.eu/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
+        "country": "Germany",
         "url": "http://mirror.ragenetwork.de/manjaro/",
         "protocols": [
             "http"
