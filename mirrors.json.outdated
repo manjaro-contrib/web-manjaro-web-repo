@@ -15,41 +15,10 @@ Outdated mirrors:
         ]
     },
     {
-        "country": "France",
-        "url": "http://mirror.lignux.com/manjaro/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
-        "country": "Germany",
-        "url": "https://mirror.alpix.eu/manjaro/",
-        "protocols": [
-            "https"
-        ]
-    },
-    {
-        "country": "Netherlands",
-        "url": "https://mirror.neostrada.nl/manjaro/",
-        "protocols": [
-            "ftp",
-            "http",
-            "https"
-        ]
-    },
-    {
         "country": "Netherlands",
         "url": "https://manjaro.mirror.wearetriple.com/",
         "protocols": [
             "https"
-        ]
-    },
-    {
-        "country": "Portugal",
-        "url": "http://ftp.dei.uc.pt/pub/linux/manjaro/",
-        "protocols": [
-            "http",
-            "ftp"
         ]
     },
     {

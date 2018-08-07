@@ -389,6 +389,15 @@
     },
     {
         "country": "Netherlands",
+        "url": "https://mirror.neostrada.nl/manjaro/",
+        "protocols": [
+            "ftp",
+            "http",
+            "https"
+        ]
+    },
+    {
+        "country": "Netherlands",
         "url": "https://ftp.nluug.nl/pub/os/Linux/distr/manjaro/",
         "protocols": [
             "ftp",
@@ -427,9 +436,10 @@
     },
     {
         "country": "Portugal",
-        "url": "http://manjaro.barata.pt/",
+        "url": "http://ftp.dei.uc.pt/pub/linux/manjaro/",
         "protocols": [
-            "http"
+            "http",
+            "ftp"
         ]
     },
     {
@@ -474,13 +484,6 @@
         "protocols": [
             "ftp",
             "https"
-        ]
-    },
-    {
-        "country": "Spain",
-        "url": "http://ftp.caliu.cat/manjaro/",
-        "protocols": [
-            "http"
         ]
     },
     {

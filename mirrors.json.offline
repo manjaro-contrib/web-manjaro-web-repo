@@ -1,0 +1,23 @@
+[
+    {
+        "country": "France",
+        "url": "http://mirror.lignux.com/manjaro/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
+        "country": "Portugal",
+        "url": "http://manjaro.barata.pt/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
+        "country": "Spain",
+        "url": "http://ftp.caliu.cat/manjaro/",
+        "protocols": [
+            "http"
+        ]
+    }
+]
