@@ -86,6 +86,14 @@
         ]
     },
     {
+        "country": "Brazil",
+        "url": "https://www.caco.ic.unicamp.br/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Bulgaria",
         "url": "https://mirrors.netix.net/manjaro/",
         "protocols": [
