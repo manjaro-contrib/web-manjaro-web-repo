@@ -502,6 +502,14 @@
         ]
     },
     {
+        "country": "Sweden",
+        "url": "https://mirror.operationtulip.com/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Taiwan",
         "url": "http://free.nchc.org.tw/manjaro/",
         "protocols": [
