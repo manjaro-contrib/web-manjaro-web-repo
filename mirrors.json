@@ -487,6 +487,13 @@
         ]
     },
     {
+        "country": "South_Korea",
+        "url": "http://mirror.d-tl.com/manjaro/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
         "country": "Sweden",
         "url": "https://ftp.lysator.liu.se/pub/manjaro/",
         "protocols": [
