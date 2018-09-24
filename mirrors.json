@@ -443,6 +443,14 @@
         ]
     },
     {
+        "country": "Poland",
+        "url": "http://ftp.vectranet.pl/manjaro/",
+        "protocols": [
+            "http",
+            "ftp"
+        ]
+    },
+    {
         "country": "Portugal",
         "url": "http://ftp.dei.uc.pt/pub/linux/manjaro/",
         "protocols": [
