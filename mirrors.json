@@ -511,7 +511,7 @@
     },
     {
         "country": "Spain",
-        "url": "http://ftp.caliu.cat/manjaro/",
+        "url": "https://ftp.caliu.cat/pub/distribucions/manjaro/",
         "protocols": [
             "https",
             "http",
