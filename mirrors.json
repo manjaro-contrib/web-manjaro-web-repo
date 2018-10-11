@@ -510,6 +510,15 @@
         ]
     },
     {
+        "country": "Spain",
+        "url": "http://ftp.caliu.cat/manjaro/",
+        "protocols": [
+            "https",
+            "http",
+            "ftp"
+        ]
+    },
+    {
         "country": "Sweden",
         "url": "https://ftp.lysator.liu.se/pub/manjaro/",
         "protocols": [
