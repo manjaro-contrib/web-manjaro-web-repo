@@ -622,9 +622,10 @@
     },
     {
         "country": "Vietnam",
-        "url": "http://manjaro.chocomint.co/manjaro/",
+        "url": "https://manjaro.chocomint.co/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     }
 ]
