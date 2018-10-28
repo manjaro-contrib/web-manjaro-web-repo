@@ -44,13 +44,6 @@
     },
     {
         "country": "Belgium",
-        "url": "https://manjaro.cu.be/",
-        "protocols": [
-            "https"
-        ]
-    },
-    {
-        "country": "Belgium",
         "url": "http://mirror.futureweb.be/manjaro/",
         "protocols": [
             "https",
@@ -390,13 +383,6 @@
     },
     {
         "country": "Japan",
-        "url": "http://ftp.tsukuba.wide.ad.jp/Linux/manjaro/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
-        "country": "Japan",
         "url": "http://ftp.riken.jp/Linux/manjaro/",
         "protocols": [
             "ftp",
@@ -464,13 +450,6 @@
         "protocols": [
             "http",
             "ftp"
-        ]
-    },
-    {
-        "country": "Romania",
-        "url": "http://mirrors.serverhost.ro/manjaro/packages/",
-        "protocols": [
-            "http"
         ]
     },
     {

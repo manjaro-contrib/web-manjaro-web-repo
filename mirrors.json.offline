@@ -1,5 +1,12 @@
 [
     {
+        "country": "Belgium",
+        "url": "https://manjaro.cu.be/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
         "country": "France",
         "url": "http://mirror.lignux.com/manjaro/",
         "protocols": [
@@ -7,8 +14,22 @@
         ]
     },
     {
+        "country": "Japan",
+        "url": "http://ftp.tsukuba.wide.ad.jp/Linux/manjaro/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
         "country": "Portugal",
         "url": "http://manjaro.barata.pt/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
+        "country": "Romania",
+        "url": "http://mirrors.serverhost.ro/manjaro/packages/",
         "protocols": [
             "http"
         ]
