@@ -7,6 +7,23 @@
         ]
     },
     {
+        "country": "China",
+        "url": "https://mirrors.shuosc.org/manjaro/",
+        "protocols": [
+            "ftp",
+            "https"
+        ]
+    },
+    {
+        "country": "China",
+        "url": "https://mirrors.shu.edu.cn/manjaro/",
+        "protocols": [
+            "https",
+            "http",
+            "ftp"
+        ]
+    },
+    {
         "country": "France",
         "url": "http://mirror.lignux.com/manjaro/",
         "protocols": [

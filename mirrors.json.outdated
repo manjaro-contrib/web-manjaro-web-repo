@@ -1,5 +1,11 @@
 Outdated mirrors:
-
+    {
+        "country": "Australia",
+        "url": "http://mirror.ventraip.net.au/Manjaro/",
+        "protocols": [
+            "http"
+        ]
+    },
     {
         "country": "Australia",
         "url": "http://manjaro.mirror.serversaustralia.com.au/",
