@@ -13,6 +13,7 @@ thead, th, td {
 select:not(:first-of-type) { margin-left: 10px; }
 
 .custom-checkbox {
+    margin-right: 10px;
     cursor: pointer;
 }
 
