@@ -38,21 +38,19 @@
     <div class="container template">
         <div id="filters">
             <div class="form-inline">
-                <label class="custom-control custom-checkbox">
-                    <input type="checkbox" id="http-filter" class="custom-control-input" checked>
-                    <span class="custom-control-indicator"></span>
-                    <span class="custom-control-description">HTTP</span>
-                </label>
-                <label class="custom-control custom-checkbox">
-                    <input type="checkbox" id="https-filter" class="custom-control-input" checked>
-                    <span class="custom-control-indicator"></span>
-                    <span class="custom-control-description">HTTPS</span>
-                </label>
-                <label class="custom-control custom-checkbox">
-                    <input type="checkbox" id="ftp-filter" class="custom-control-input" checked>
-                    <span class="custom-control-indicator"></span>
-                    <span class="custom-control-description">FTP</span>
-                </label>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="http-filter" checked>
+                    <label class="custom-control-label" for="http-filter">HTTP</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="https-filter" checked>
+                    <label class="custom-control-label" for="https-filter">HTTPS</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="ftp-filter" checked>
+                    <label class="custom-control-label" for="ftp-filter">FTP</label>
+                </div>
+                
                 <select id="country-filter" class="custom-select">
                     <option value="all" selected>All countries</option>
                     $COUNTRIES
