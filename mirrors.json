@@ -497,14 +497,6 @@
         ]
     },
     {
-        "country": "Sweden",
-        "url": "https://mirror.linux.pizza/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
         "country": "Taiwan",
         "url": "http://free.nchc.org.tw/manjaro/",
         "protocols": [
