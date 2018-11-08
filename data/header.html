@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta http-equiv="refresh" content="300">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="../data/css/style.min.css" rel="stylesheet">
     <link rel="icon" href="../data/img/manjaro.png">
 </head>
@@ -38,21 +38,19 @@
     <div class="container template">
         <div id="filters">
             <div class="form-inline">
-                <label class="custom-control custom-checkbox">
-                    <input type="checkbox" id="http-filter" class="custom-control-input" checked>
-                    <span class="custom-control-indicator"></span>
-                    <span class="custom-control-description">HTTP</span>
-                </label>
-                <label class="custom-control custom-checkbox">
-                    <input type="checkbox" id="https-filter" class="custom-control-input" checked>
-                    <span class="custom-control-indicator"></span>
-                    <span class="custom-control-description">HTTPS</span>
-                </label>
-                <label class="custom-control custom-checkbox">
-                    <input type="checkbox" id="ftp-filter" class="custom-control-input" checked>
-                    <span class="custom-control-indicator"></span>
-                    <span class="custom-control-description">FTP</span>
-                </label>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="http-filter" checked>
+                    <label class="custom-control-label" for="http-filter">HTTP</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="https-filter" checked>
+                    <label class="custom-control-label" for="https-filter">HTTPS</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="ftp-filter" checked>
+                    <label class="custom-control-label" for="ftp-filter">FTP</label>
+                </div>
+                
                 <select id="country-filter" class="custom-select">
                     <option value="all" selected>All countries</option>
                     $COUNTRIES
