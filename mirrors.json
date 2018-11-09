@@ -568,6 +568,14 @@
         ]
     },
     {
+        "country": "United_States",
+        "url": "https://mirrors.gigenet.com/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Vietnam",
         "url": "https://manjaro.chocomint.co/manjaro/",
         "protocols": [
