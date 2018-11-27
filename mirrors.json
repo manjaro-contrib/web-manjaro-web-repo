@@ -443,6 +443,15 @@
         ]
     },
     {
+        "country": "Singapore",
+        "url": "https://mirror.0x.sg/manjaro/",
+        "protocols": [
+            "https",
+            "http",
+            "ftp"
+        ]
+    },
+    {
         "country": "South_Africa",
         "url": "http://mirror.is.co.za/mirrors/manjaro.org/",
         "protocols": [
