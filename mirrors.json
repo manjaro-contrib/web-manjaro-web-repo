@@ -366,6 +366,13 @@
         ]
     },
     {
+        "country": "Japan",
+        "url": "http://ftp.tsukuba.wide.ad.jp/Linux/manjaro/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
         "country": "Netherlands",
         "url": "https://mirror.neostrada.nl/manjaro/",
         "protocols": [
