@@ -31,13 +31,6 @@
         ]
     },
     {
-        "country": "Japan",
-        "url": "http://ftp.tsukuba.wide.ad.jp/Linux/manjaro/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
         "country": "Portugal",
         "url": "http://manjaro.barata.pt/",
         "protocols": [
