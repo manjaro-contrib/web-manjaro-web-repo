@@ -14,6 +14,14 @@
         ]
     },
     {
+        "country": "Austria",
+        "url": "http://mirror.easyname.at/manjaro/",
+        "protocols": [
+            "http",
+            "ftp"
+        ]
+    },
+    {
         "country": "Bangladesh",
         "url": "http://mirror.xeonbd.com/manjaro/",
         "protocols": [
