@@ -405,6 +405,14 @@
         ]
     },
     {
+        "country": "New_Zealand",
+        "url": "https://manjaro.mirrors.theom.nz/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Philippines",
         "url": "http://mirror.rise.ph/manjaro/",
         "protocols": [
