@@ -476,6 +476,14 @@
     },
     {
         "country": "South_Africa",
+        "url": "https://manjaro.mirror.liquidtelecom.com/",
+        "protocols": [
+            "https"
+            "http"
+        ]
+    },
+    {
+        "country": "South_Africa",
         "url": "http://mirror.is.co.za/mirrors/manjaro.org/",
         "protocols": [
             "http"
