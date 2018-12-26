@@ -381,6 +381,14 @@
         ]
     },
     {
+        "country": "Kenya",
+        "url": "https://manjaro.mirror.liquidtelecom.com/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Netherlands",
         "url": "https://mirror.neostrada.nl/manjaro/",
         "protocols": [
@@ -472,14 +480,6 @@
             "https",
             "http",
             "ftp"
-        ]
-    },
-    {
-        "country": "South_Africa",
-        "url": "https://manjaro.mirror.liquidtelecom.com/",
-        "protocols": [
-            "https",
-            "http"
         ]
     },
     {
