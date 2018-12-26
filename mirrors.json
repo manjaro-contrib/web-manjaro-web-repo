@@ -478,7 +478,7 @@
         "country": "South_Africa",
         "url": "https://manjaro.mirror.liquidtelecom.com/",
         "protocols": [
-            "https"
+            "https",
             "http"
         ]
     },
