@@ -345,6 +345,14 @@
         ]
     },
     {
+        "country": "Indonesia",
+        "url": "https://mirror.deace.id/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Iran",
         "url": "https://repo.sadjad.ac.ir/manjaro/",
         "protocols": [
