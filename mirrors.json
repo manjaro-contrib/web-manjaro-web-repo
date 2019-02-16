@@ -569,6 +569,14 @@
         ]
     },
     {
+        "country": "Ukraine",
+        "url": "http://mirrors.colocall.net/manjaro/",
+        "protocols": [
+            "http",
+            "ftp"
+        ]
+    },
+    {
         "country": "United_Kingdom",
         "url": "http://mirror.catn.com/pub/manjaro/",
         "protocols": [
