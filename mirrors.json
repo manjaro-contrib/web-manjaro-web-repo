@@ -332,13 +332,6 @@
     },
     {
         "country": "Indonesia",
-        "url": "http://kambing.ui.ac.id/manjaro/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
-        "country": "Indonesia",
         "url": "http://kartolo.sby.datautama.net.id/manjaro/",
         "protocols": [
             "http"

@@ -31,6 +31,13 @@
         ]
     },
     {
+        "country": "Indonesia",
+        "url": "http://kambing.ui.ac.id/manjaro/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
         "country": "Portugal",
         "url": "http://manjaro.barata.pt/",
         "protocols": [
