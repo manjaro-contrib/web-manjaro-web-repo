@@ -607,6 +607,14 @@
     },
     {
         "country": "United_States",
+        "url": "https://repo.ialab.dsu.edu/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "United_States",
         "url": "http://mirror.dacentec.com/manjaro/",
         "protocols": [
             "http"
