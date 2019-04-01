@@ -239,6 +239,14 @@
     },
     {
         "country": "Germany",
+        "url": "https://mirror.23media.com/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "Germany",
         "url": "http://mirror.ragenetwork.de/manjaro/",
         "protocols": [
             "http"
