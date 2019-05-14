@@ -123,6 +123,14 @@
         ]
     },
     {
+        "country": "Chile",
+        "url": "https://mirror.ufro.cl/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "China",
         "url": "https://mirrors.huaweicloud.com/manjaro/",
         "protocols": [
