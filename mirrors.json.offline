@@ -59,6 +59,15 @@
         ]
     },
     {
+        "country": "Singapore",
+        "url": "https://mirror.0x.sg/manjaro/",
+        "protocols": [
+            "https",
+            "http",
+            "ftp"
+        ]
+    },
+    {
         "country": "Spain",
         "url": "http://ftp.caliu.cat/manjaro/",
         "protocols": [
