@@ -210,9 +210,9 @@
     },
     {
         "country": "Ecuador",
-        "url": "https://mirror.espoch.edu.ec/manjaro/",
+        "url": "http://mirror.espoch.edu.ec/manjaro/",
         "protocols": [
-            "https"
+            "http"
         ]
     },
     {
