@@ -224,6 +224,13 @@
     },
     {
         "country": "France",
+        "url": "https://manjaro.ynh.ovh/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
+        "country": "France",
         "url": "http://ftp.free.org/mirrors/repo.manjaro.org/repos/",
         "protocols": [
             "ftp",
