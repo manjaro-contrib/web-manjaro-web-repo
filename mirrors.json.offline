@@ -31,6 +31,13 @@
         ]
     },
     {
+        "country": "Germany",
+        "url": "https://repo.rhindon.net/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
         "country": "Indonesia",
         "url": "http://kambing.ui.ac.id/manjaro/",
         "protocols": [

@@ -299,13 +299,6 @@
     },
     {
         "country": "Germany",
-        "url": "https://repo.rhindon.net/manjaro/",
-        "protocols": [
-            "https"
-        ]
-    },
-    {
-        "country": "Germany",
         "url": "http://ftp.rz.tu-bs.de/pub/mirror/manjaro.org/repos/",
         "protocols": [
             "ftp",
