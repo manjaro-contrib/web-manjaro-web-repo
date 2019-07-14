@@ -664,13 +664,5 @@
             "https",
             "http"
         ]
-    },
-    {
-        "country": "Vietnam",
-        "url": "https://manjaro.chocomint.co/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
     }
 ]
