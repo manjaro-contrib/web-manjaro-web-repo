@@ -385,6 +385,14 @@
         ]
     },
     {
+        "country": "Iran",
+        "url": "https://repo.iut.ac.ir/repo/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Italy",
         "url": "https://manjaro.mirror.garr.it/mirrors/manjaro/",
         "protocols": [
