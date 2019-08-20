@@ -7,6 +7,13 @@
         ]
     },
     {
+        "country": "Brazil",
+        "url": "http://pet.inf.ufsc.br/mirrors/manjarolinux/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
         "country": "China",
         "url": "https://mirrors.shuosc.org/manjaro/",
         "protocols": [
@@ -39,8 +46,24 @@
     },
     {
         "country": "Indonesia",
+        "url": "https://mirror.deace.id/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "Indonesia",
         "url": "http://kambing.ui.ac.id/manjaro/",
         "protocols": [
+            "http"
+        ]
+    },
+    {
+        "country": "Poland",
+        "url": "https://mirror.tuchola-dc.pl/manjaro/",
+        "protocols": [
+            "https",
             "http"
         ]
     },
