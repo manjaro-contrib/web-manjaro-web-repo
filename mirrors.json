@@ -488,8 +488,7 @@
         "country": "Poland",
         "url": "https://mirror.tuchola-dc.pl/manjaro/",
         "protocols": [
-            "https",
-            "http"
+            "https"
         ]
     },
     {
