@@ -46,24 +46,8 @@
     },
     {
         "country": "Indonesia",
-        "url": "https://mirror.deace.id/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
-        "country": "Indonesia",
         "url": "http://kambing.ui.ac.id/manjaro/",
         "protocols": [
-            "http"
-        ]
-    },
-    {
-        "country": "Poland",
-        "url": "https://mirror.tuchola-dc.pl/manjaro/",
-        "protocols": [
-            "https",
             "http"
         ]
     },
