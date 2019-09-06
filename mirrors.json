@@ -457,6 +457,13 @@
         ]
     },
     {
+        "country": "Norway",
+        "url": "http://mirror.terrahost.no/linux/manjaro/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
         "country": "Philippines",
         "url": "http://mirror.rise.ph/manjaro/",
         "protocols": [
