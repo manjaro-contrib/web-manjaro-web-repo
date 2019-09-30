@@ -1,26 +1,5 @@
 Outdated mirrors:
     {
-        "country": "Australia",
-        "url": "http://mirror.ventraip.net.au/Manjaro/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
-        "country": "Australia",
-        "url": "http://manjaro.mirror.serversaustralia.com.au/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
-        "country": "Colombia",
-        "url": "http://mirror.edatel.net.co/manjaro/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
         "country": "Netherlands",
         "url": "https://manjaro.mirror.wearetriple.com/",
         "protocols": [
@@ -28,15 +7,8 @@ Outdated mirrors:
         ]
     },
     {
-        "country": "Singapore",
-        "url": "https://download.nus.edu.sg/mirror/manjaro/",
-        "protocols": [
-            "https"
-        ]
-    },
-    {
-        "country": "United_States",
-        "url": "https://mirror.clarkson.edu/manjaro/",
+        "country": "Sweden",
+        "url": "https://mirror.operationtulip.com/manjaro/",
         "protocols": [
             "https"
         ]

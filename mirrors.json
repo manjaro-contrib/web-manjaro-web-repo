@@ -7,6 +7,13 @@
         ]
     },
     {
+        "country": "Australia",
+        "url": "http://manjaro.mirror.serversaustralia.com.au/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
         "country": "Austria",
         "url": "http://mirror.inode.at/manjaro/",
         "protocols": [
@@ -167,6 +174,13 @@
     {
         "country": "Colombia",
         "url": "http://mirror.upb.edu.co/manjaro/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
+        "country": "Colombia",
+        "url": "http://mirror.edatel.net.co/manjaro/",
         "protocols": [
             "http"
         ]
@@ -516,6 +530,13 @@
         ]
     },
     {
+        "country": "Singapore",
+        "url": "https://download.nus.edu.sg/mirror/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
         "country": "South_Africa",
         "url": "http://mirror.is.co.za/mirrors/manjaro.org/",
         "protocols": [
@@ -555,13 +576,6 @@
     {
         "country": "Sweden",
         "url": "https://mirror.zetup.net/manjaro/",
-        "protocols": [
-            "https"
-        ]
-    },
-    {
-        "country": "Sweden",
-        "url": "https://mirror.operationtulip.com/manjaro/",
         "protocols": [
             "https"
         ]
@@ -649,6 +663,13 @@
     {
         "country": "United_States",
         "url": "https://mirror.math.princeton.edu/pub/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
+        "country": "United_States",
+        "url": "https://mirror.clarkson.edu/manjaro/",
         "protocols": [
             "https"
         ]

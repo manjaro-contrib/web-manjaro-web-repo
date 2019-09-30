@@ -1,5 +1,12 @@
 [
     {
+        "country": "Australia",
+        "url": "http://mirror.ventraip.net.au/Manjaro/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
         "country": "Belgium",
         "url": "https://manjaro.cu.be/",
         "protocols": [
