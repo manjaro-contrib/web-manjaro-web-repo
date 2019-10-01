@@ -588,6 +588,15 @@
         ]
     },
     {
+        "country": "Thailand",
+        "url": "https://mirror.kku.ac.th/manjaro/",
+        "protocols": [
+            "https",
+            "http",
+            "ftp"
+        ]
+    },
+    {
         "country": "Turkey",
         "url": "http://ftp.linux.org.tr/manjaro/",
         "protocols": [
