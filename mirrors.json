@@ -74,13 +74,6 @@
     },
     {
         "country": "Brazil",
-        "url": "http://mirror.ufam.edu.br/manjaro/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
-        "country": "Brazil",
         "url": "https://www.caco.ic.unicamp.br/manjaro/",
         "protocols": [
             "https"
@@ -108,13 +101,6 @@
         ]
     },
     {
-        "country": "Canada",
-        "url": "https://osmirror.org/manjaro/",
-        "protocols": [
-            "https"
-        ]
-    },
-    {
         "country": "Chile",
         "url": "http://manjaro.dcc.uchile.cl/",
         "protocols": [
@@ -126,14 +112,6 @@
         "url": "https://mirror.ufro.cl/manjaro/",
         "protocols": [
             "https"
-        ]
-    },
-    {
-        "country": "China",
-        "url": "https://mirrors.huaweicloud.com/manjaro/",
-        "protocols": [
-            "https",
-            "http"
         ]
     },
     {
@@ -152,13 +130,6 @@
     },
     {
         "country": "China",
-        "url": "https://mirrors.zju.edu.cn/manjaro/",
-        "protocols": [
-            "https"
-        ]
-    },
-    {
-        "country": "China",
         "url": "https://mirrors.sjtug.sjtu.edu.cn/manjaro/",
         "protocols": [
             "https"
@@ -169,13 +140,6 @@
         "url": "https://mirrors.ucr.ac.cr/manjaro/",
         "protocols": [
             "https"
-        ]
-    },
-    {
-        "country": "Colombia",
-        "url": "http://mirror.upb.edu.co/manjaro/",
-        "protocols": [
-            "http"
         ]
     },
     {
@@ -646,13 +610,6 @@
         "protocols": [
             "https",
             "http"
-        ]
-    },
-    {
-        "country": "United_States",
-        "url": "https://mirror.dacentec.com/manjaro/",
-        "protocols": [
-            "https"
         ]
     },
     {

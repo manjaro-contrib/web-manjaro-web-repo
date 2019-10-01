@@ -1,5 +1,27 @@
 Outdated mirrors:
     {
+        "country": "Brazil",
+        "url": "http://mirror.ufam.edu.br/manjaro/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
+        "country": "China",
+        "url": "https://mirrors.huaweicloud.com/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "Colombia",
+        "url": "http://mirror.upb.edu.co/manjaro/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
         "country": "Netherlands",
         "url": "https://manjaro.mirror.wearetriple.com/",
         "protocols": [
@@ -9,6 +31,13 @@ Outdated mirrors:
     {
         "country": "Sweden",
         "url": "https://mirror.operationtulip.com/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
+        "country": "United_States",
+        "url": "https://mirror.dacentec.com/manjaro/",
         "protocols": [
             "https"
         ]

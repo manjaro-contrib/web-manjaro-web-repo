@@ -21,10 +21,24 @@
         ]
     },
     {
+        "country": "Canada",
+        "url": "https://osmirror.org/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
         "country": "China",
         "url": "https://mirrors.shuosc.org/manjaro/",
         "protocols": [
             "ftp",
+            "https"
+        ]
+    },
+    {
+        "country": "China",
+        "url": "https://mirrors.zju.edu.cn/manjaro/",
+        "protocols": [
             "https"
         ]
     },
