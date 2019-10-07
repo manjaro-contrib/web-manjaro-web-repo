@@ -360,6 +360,15 @@
         ]
     },
     {
+        "country": "Iceland",
+        "url": "https://mirrors.opensource.is/manjaro/",
+        "protocols": [
+            "https",
+            "http",
+            "ftp"
+        ]
+    },
+    {
         "country": "Italy",
         "url": "https://manjaro.mirror.garr.it/mirrors/manjaro/",
         "protocols": [
