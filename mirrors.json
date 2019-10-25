@@ -344,6 +344,14 @@
         ]
     },
     {
+        "country": "India",
+        "url": "https://mirrors.piconets.webwerks.in/manjaro-mirror/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Iran",
         "url": "https://repo.sadjad.ac.ir/manjaro/",
         "protocols": [
