@@ -22,6 +22,21 @@ Outdated mirrors:
         ]
     },
     {
+        "country": "Ecuador",
+        "url": "https://mirror.cedia.org.ec/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
+        "country": "Iran",
+        "url": "https://repo.sadjad.ac.ir/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Netherlands",
         "url": "https://manjaro.mirror.wearetriple.com/",
         "protocols": [
@@ -35,10 +50,4 @@ Outdated mirrors:
             "https"
         ]
     },
-    {
-        "country": "United_States",
-        "url": "https://mirror.dacentec.com/manjaro/",
-        "protocols": [
-            "https"
-        ]
-    },
+

@@ -52,10 +52,31 @@
         ]
     },
     {
+        "country": "Colombia",
+        "url": "http://mirror.edatel.net.co/manjaro/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
         "country": "France",
         "url": "http://mirror.lignux.com/manjaro/",
         "protocols": [
             "http"
+        ]
+    },
+    {
+        "country": "Germany",
+        "url": "http://ftp.rz.tu-bs.de/pub/mirror/manjaro.org/repos/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
+        "country": "Germany",
+        "url": "https://mirror.philpot.de/manjaro/",
+        "protocols": [
+            "https"
         ]
     },
     {
