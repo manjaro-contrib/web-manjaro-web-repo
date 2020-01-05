@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-MIRRORS_URL = "http://repo.manjaro.org/mirrors.json"
+MIRRORS_URL = "https://repo.manjaro.org/mirrors.json"
 BRANCHES = ("stable", "testing", "unstable")
 ROOT_FOLDER = "/var/www/manjaro-web-repo/"
 OUTPUT_FOLDER = "docs/"
