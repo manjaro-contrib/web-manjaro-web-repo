@@ -94,6 +94,13 @@
         ]
     },
     {
+        "country": "Canada",
+        "url": "https://mirror.csclub.uwaterloo.ca/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
         "country": "Bulgaria",
         "url": "http://manjaro.telecoms.bg/",
         "protocols": [
