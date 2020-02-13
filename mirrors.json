@@ -108,6 +108,14 @@
         ]
     },
     {
+        "country": "Canada",
+        "url": "https://miroir.cedille.club/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Bulgaria",
         "url": "http://manjaro.telecoms.bg/",
         "protocols": [
