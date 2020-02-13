@@ -101,6 +101,13 @@
         ]
     },
     {
+        "country": "Canada",
+        "url": "https://osmirror.org/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
         "country": "Bulgaria",
         "url": "http://manjaro.telecoms.bg/",
         "protocols": [
