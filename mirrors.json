@@ -186,6 +186,13 @@
     },
     {
         "country": "France",
+        "url": "https://manjaro.mcofficer.me/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
+        "country": "France",
         "url": "https://manjaro.ynh.ovh/",
         "protocols": [
             "https"
