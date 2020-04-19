@@ -229,6 +229,14 @@
         ]
     },
     {
+        "country": "France",
+        "url": "https://mirror.meauzoone.fr/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Georgia",
         "url": "https://manjaro.grena.ge/",
         "protocols": [
