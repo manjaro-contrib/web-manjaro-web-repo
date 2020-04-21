@@ -440,6 +440,14 @@
     },
     {
         "country": "Netherlands",
+        "url": "https://manjaro.mirrors.lavatech.top/",
+        "protocols": [
+            "http",
+            "https"
+        ]
+    },
+    {
+        "country": "Netherlands",
         "url": "https://ftp.nluug.nl/pub/os/Linux/distr/manjaro/",
         "protocols": [
             "ftp",
