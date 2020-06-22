@@ -117,6 +117,13 @@
         ]
     },
     {
+        "country": "United_Kingdom",
+        "url": "http://repo.manjaro.org.uk/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
         "country": "Vietnam",
         "url": "https://manjaro.chocomint.co/manjaro/",
         "protocols": [

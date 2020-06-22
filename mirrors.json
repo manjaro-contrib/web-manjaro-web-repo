@@ -641,13 +641,6 @@
     },
     {
         "country": "United_Kingdom",
-        "url": "http://repo.manjaro.org.uk/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
-        "country": "United_Kingdom",
         "url": "https://www.mirrorservice.org/sites/repo.manjaro.org/repos/",
         "protocols": [
             "https"
