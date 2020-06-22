@@ -7,6 +7,14 @@ Outdated mirrors:
         ]
     },
     {
+        "country": "Belgium",
+        "url": "http://ftp.belnet.be/mirrors/manjaro/",
+        "protocols": [
+            "http",
+            "ftp"
+        ]
+    },
+    {
         "country": "China",
         "url": "https://mirrors.huaweicloud.com/manjaro/",
         "protocols": [
