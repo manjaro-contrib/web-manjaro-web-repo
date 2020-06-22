@@ -461,13 +461,6 @@
     },
     {
         "country": "Poland",
-        "url": "https://mirror.chmuri.net/manjaro/",
-        "protocols": [
-            "https"
-        ]
-    },
-    {
-        "country": "Poland",
         "url": "http://ftp.vectranet.pl/manjaro/",
         "protocols": [
             "http",
@@ -592,13 +585,6 @@
         "protocols": [
             "http",
             "ftp"
-        ]
-    },
-    {
-        "country": "United_Kingdom",
-        "url": "http://mirror.catn.com/pub/manjaro/",
-        "protocols": [
-            "http"
         ]
     },
     {

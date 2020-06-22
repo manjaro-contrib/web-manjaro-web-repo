@@ -51,10 +51,24 @@ Outdated mirrors:
         ]
     },
     {
+        "country": "Poland",
+        "url": "https://mirror.chmuri.net/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
         "country": "Sweden",
         "url": "https://mirror.operationtulip.com/manjaro/",
         "protocols": [
             "https"
+        ]
+    },
+    {
+        "country": "United_Kingdom",
+        "url": "http://mirror.catn.com/pub/manjaro/",
+        "protocols": [
+            "http"
         ]
     },
 
