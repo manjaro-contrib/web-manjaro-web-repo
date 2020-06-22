@@ -23,6 +23,13 @@ Outdated mirrors:
     },
     {
         "country": "Ecuador",
+        "url": "http://mirror.espoch.edu.ec/manjaro/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
+        "country": "Ecuador",
         "url": "https://mirror.cedia.org.ec/manjaro/",
         "protocols": [
             "https"

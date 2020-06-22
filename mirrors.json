@@ -178,13 +178,6 @@
         ]
     },
     {
-        "country": "Ecuador",
-        "url": "http://mirror.espoch.edu.ec/manjaro/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
         "country": "France",
         "url": "https://mirror.oldsql.cc/manjaro/",
         "protocols": [
