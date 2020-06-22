@@ -109,6 +109,15 @@
         ]
     },
     {
+        "country": "Netherlands",
+        "url": "https://mirror.neostrada.nl/manjaro/",
+        "protocols": [
+            "ftp",
+            "http",
+            "https"
+        ]
+    },
+    {
         "country": "Portugal",
         "url": "http://manjaro.barata.pt/",
         "protocols": [

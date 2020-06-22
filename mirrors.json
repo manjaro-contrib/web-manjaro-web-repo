@@ -401,15 +401,6 @@
     },
     {
         "country": "Netherlands",
-        "url": "https://mirror.neostrada.nl/manjaro/",
-        "protocols": [
-            "ftp",
-            "http",
-            "https"
-        ]
-    },
-    {
-        "country": "Netherlands",
         "url": "https://manjaro.mirrors.lavatech.top/",
         "protocols": [
             "http",
