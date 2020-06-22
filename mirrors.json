@@ -230,9 +230,8 @@
     },
     {
         "country": "France",
-        "url": "https://meauzoone.fr/mirror/manjaro/",
+        "url": "http://meauzoone.fr/mirror/manjaro/",
         "protocols": [
-            "https",
             "http"
         ]
     },
