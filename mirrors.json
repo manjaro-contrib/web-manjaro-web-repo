@@ -238,13 +238,6 @@
     },
     {
         "country": "Germany",
-        "url": "http://mirror.ragenetwork.de/manjaro/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
-        "country": "Germany",
         "url": "https://ftp.halifax.rwth-aachen.de/manjaro/",
         "protocols": [
             "ftp",
