@@ -21,6 +21,14 @@
         ]
     },
     {
+        "country": "Canada",
+        "url": "https://miroir.cedille.club/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "China",
         "url": "https://mirrors.shuosc.org/manjaro/",
         "protocols": [
