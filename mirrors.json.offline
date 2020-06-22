@@ -61,13 +61,6 @@
     },
     {
         "country": "France",
-        "url": "http://kibo.remi.lu/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
-        "country": "France",
         "url": "http://mirror.lignux.com/manjaro/",
         "protocols": [
             "http"

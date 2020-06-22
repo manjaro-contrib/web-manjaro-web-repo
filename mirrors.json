@@ -208,6 +208,13 @@
     },
     {
         "country": "France",
+        "url": "http://kibo.remi.lu/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
+        "country": "France",
         "url": "http://meauzoone.fr/mirror/manjaro/",
         "protocols": [
             "http"
