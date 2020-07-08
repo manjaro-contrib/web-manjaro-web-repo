@@ -130,6 +130,13 @@
     },
     {
         "country": "China",
+        "url": "https://mirrors.aliyun.com/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
+        "country": "China",
         "url": "https://mirrors.ustc.edu.cn/manjaro/",
         "protocols": [
             "https"
