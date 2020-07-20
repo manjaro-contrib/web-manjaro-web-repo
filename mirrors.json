@@ -371,7 +371,7 @@
     },
     {
         "country": "Italy",
-        "url": "https://manjaro.mirror.garr.it/mirrors/manjaro/",
+        "url": "https://manjaro.mirror.garr.it/manjaro/",
         "protocols": [
             "https"
         ]
