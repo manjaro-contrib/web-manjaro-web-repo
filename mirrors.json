@@ -513,8 +513,9 @@
     },
     {
         "country": "Russia",
-        "url": "http://mirror.truenetwork.ru/manjaro/",
+        "url": "https://mirror.truenetwork.ru/manjaro/",
         "protocols": [
+            "https",
             "http"
         ]
     },
