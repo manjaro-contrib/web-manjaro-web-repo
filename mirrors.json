@@ -490,14 +490,6 @@
         ]
     },
     {
-        "country": "Poland",
-        "url": "https://pl.mirrors.fossho.st/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
         "country": "Portugal",
         "url": "http://ftp.dei.uc.pt/pub/linux/manjaro/",
         "protocols": [
