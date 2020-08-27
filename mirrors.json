@@ -690,5 +690,12 @@
             "https",
             "http"
         ]
+    },
+	{
+        "country": "Uruguay",
+        "url": "https://manjaro.repo.cure.edu.uy/",
+        "protocols": [
+            "https"
+        ]
     }
 ]
