@@ -1,16 +1,9 @@
 [
     {
         "country": "Australia",
-        "url": "http://manjaro.melbourneitmirror.net/",
+        "url": "https://manjaro.lucassymons.net/",
         "protocols": [
-            "http"
-        ]
-    },
-    {
-        "country": "Australia",
-        "url": "http://manjaro.mirror.serversaustralia.com.au/",
-        "protocols": [
-            "http"
+            "https"
         ]
     },
     {
