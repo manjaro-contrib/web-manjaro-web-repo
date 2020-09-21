@@ -7,6 +7,13 @@
         ]
     },
     {
+        "country": "Australia",
+        "url": "https://mirror.aarnet.edu.au/pub/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
         "country": "Austria",
         "url": "http://mirror.inode.at/manjaro/",
         "protocols": [
