@@ -459,6 +459,14 @@
         ]
     },
     {
+        "country": "Pakistan",
+        "url": "https://repo.inara.pk/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },   
+    {
         "country": "Philippines",
         "url": "http://mirror.rise.ph/manjaro/",
         "protocols": [
