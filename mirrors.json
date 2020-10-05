@@ -129,6 +129,15 @@
         ]
     },
     {
+        "country": "Chile",
+        "url": "https://mirror1.cl.netactuate.com/manjaro/",
+        "protocols": [
+            "https",
+            "http",
+            "ftp"
+        ]
+    },    
+    {
         "country": "China",
         "url": "https://mirrors.huaweicloud.com/manjaro/",
         "protocols": [
@@ -157,6 +166,13 @@
             "https"
         ]
     },
+    {
+        "country": "China",
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },    
     {
         "country": "China",
         "url": "https://mirrors.sjtug.sjtu.edu.cn/manjaro/",
