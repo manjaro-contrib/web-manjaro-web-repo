@@ -10,7 +10,8 @@
         "country": "Australia",
         "url": "https://mirror.aarnet.edu.au/pub/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"            
         ]
     },
     {
