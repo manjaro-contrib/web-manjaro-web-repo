@@ -252,6 +252,14 @@
     },
     {
         "country": "Germany",
+        "url": "https://mirror.atysleaks.org/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },    
+    {
+        "country": "Germany",
         "url": "https://mirror.23media.com/manjaro/",
         "protocols": [
             "https",
