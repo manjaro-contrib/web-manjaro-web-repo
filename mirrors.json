@@ -574,6 +574,15 @@
         ]
     },
     {
+        "country": "South_Korea",
+        "url": "https://mirror.krmir.org/manjaro/",
+        "protocols": [
+            "https",
+            "http",
+            "ftp"
+        ]
+    },
+    {
         "country": "Spain",
         "url": "https://ftp.caliu.cat/pub/distribucions/manjaro/",
         "protocols": [
