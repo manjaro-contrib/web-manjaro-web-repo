@@ -272,8 +272,7 @@
         "url": "https://manjaro.re/",
         "protocols": [
             "https",
-            "http",
-            "ftp"
+            "http"
         ]
     },     
     {
