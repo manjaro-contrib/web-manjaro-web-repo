@@ -448,6 +448,15 @@
     },
     {
         "country": "Netherlands",
+        "url": "https://mirror.easylee.nl/manjaro/",
+        "url": "https://manjaro.mirrors.lavatech.top/",
+        "protocols": [
+            "http",
+            "https"
+        ]
+    },
+    {
+        "country": "Netherlands",
         "url": "https://manjaro.mirrors.lavatech.top/",
         "protocols": [
             "http",
