@@ -309,9 +309,9 @@
     },
     {
         "country": "Germany",
-        "url": "https://mirror.netzspielplatz.de/manjaro/packages/",
+        "url": "http://mirror.netzspielplatz.de/manjaro/packages/",
         "protocols": [
-            "https"
+            "http"
         ]
     },
     {
