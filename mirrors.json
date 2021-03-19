@@ -338,6 +338,14 @@
         ]
     },
     {
+        "country": "Global",
+        "url": "https://mirrors.fossho.st/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },    
+    {
         "country": "Greece",
         "url": "https://ftp.cc.uoc.gr/mirrors/linux/manjaro/",
         "protocols": [
@@ -683,14 +691,6 @@
         ]
     },
     {
-        "country": "United_Kingdom",
-        "url": "https://uk.mirrors.fossho.st/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
         "country": "United_States",
         "url": "https://repo.ialab.dsu.edu/manjaro/",
         "protocols": [
@@ -741,15 +741,7 @@
             "http"
         ]
     },
-	{
-        "country": "United_States",
-        "url": "https://us.mirrors.fossho.st/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-	{
+    {
         "country": "Uruguay",
         "url": "https://manjaro.repo.cure.edu.uy/",
         "protocols": [
