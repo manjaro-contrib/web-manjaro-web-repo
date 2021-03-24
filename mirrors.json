@@ -89,6 +89,15 @@
     },
     {
         "country": "Bulgaria",
+        "url": "https://mirror.telepoint.bg/manjaro/",
+        "protocols": [
+            "https",
+            "http",
+            "ftps"
+        ]
+    },
+    {
+        "country": "Bulgaria",
         "url": "https://manjaro.ipacct.com/manjaro/",
         "protocols": [
             "https"
