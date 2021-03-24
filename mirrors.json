@@ -474,6 +474,15 @@
     },
     {
         "country": "Netherlands",
+        "url": "https://mirror.serverion.com/manjaro/",
+        "protocols": [
+            "https",
+            "http",
+            "ftp"
+        ]
+    },
+    {
+        "country": "Netherlands",
         "url": "https://ftp.nluug.nl/pub/os/Linux/distr/manjaro/",
         "protocols": [
             "ftp",
