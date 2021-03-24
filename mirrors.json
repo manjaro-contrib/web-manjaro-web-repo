@@ -547,6 +547,14 @@
     },
     {
         "country": "Russia",
+        "url": "https://mirror.surf/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "Russia",
         "url": "https://mirror.truenetwork.ru/manjaro/",
         "protocols": [
             "https",
