@@ -631,6 +631,15 @@
         ]
     },
     {
+        "country": "Sweden",
+        "url": "https://ftpmirror1.infania.net/mirror/manjaro/",
+        "protocols": [
+            "https",
+            "http",
+            "ftp"
+        ]
+    },
+    {
         "country": "Switzerland",
         "url": "https://manjaro.osmir.ch/",
         "protocols": [
