@@ -276,7 +276,16 @@
             "https",
             "http"
         ]
-    },     
+    },
+    {
+        "country": "Germany",
+        "url": "https://ftp.gwdg.de/pub/linux/manjaro/",
+        "protocols": [
+            "https",
+            "http",
+            "ftp"
+        ]
+    },
     {
         "country": "Germany",
         "url": "https://mirror.atysleaks.org/manjaro/",
