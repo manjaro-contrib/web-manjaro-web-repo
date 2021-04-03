@@ -16,13 +16,6 @@
     },
     {
         "country": "Austria",
-        "url": "http://mirror.inode.at/manjaro/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
-        "country": "Austria",
         "url": "http://mirror.easyname.at/manjaro/",
         "protocols": [
             "http",
@@ -45,7 +38,7 @@
     },
     {
         "country": "Belgium",
-        "url": "http://ftp.belnet.be/mirrors/manjaro/",
+        "url": "http://ftp.belnet.be/mirrors/manjaro/repos/",
         "protocols": [
             "http",
             "ftp"
@@ -237,20 +230,6 @@
         "url": "http://ftp.free.org/mirrors/repo.manjaro.org/repos/",
         "protocols": [
             "ftp",
-            "http"
-        ]
-    },
-    {
-        "country": "France",
-        "url": "http://kibo.remi.lu/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
-        "country": "France",
-        "url": "http://meauzoone.fr/mirror/manjaro/",
-        "protocols": [
             "http"
         ]
     },
@@ -582,14 +561,6 @@
     },
     {
         "country": "Russia",
-        "url": "https://mirror.surf/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
-        "country": "Russia",
         "url": "https://mirror.truenetwork.ru/manjaro/",
         "protocols": [
             "https",
@@ -622,15 +593,6 @@
         "url": "https://mirror.d-tl.com/manjaro/",
         "protocols": [
             "https"
-        ]
-    },
-    {
-        "country": "South_Korea",
-        "url": "https://mirror.krmir.org/manjaro/",
-        "protocols": [
-            "https",
-            "http",
-            "ftp"
         ]
     },
     {
