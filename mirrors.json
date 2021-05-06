@@ -205,13 +205,6 @@
         ]
     },
     {
-        "country": "Denmark",
-        "url": "https://www.uex.dk/public/manjaro/",
-        "protocols": [
-            "https"
-        ]
-    },
-    {
         "country": "France",
         "url": "https://mirror.oldsql.cc/manjaro/",
         "protocols": [
