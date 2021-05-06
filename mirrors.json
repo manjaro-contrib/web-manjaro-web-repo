@@ -533,13 +533,6 @@
     },
     {
         "country": "Poland",
-        "url": "https://mirror.tuchola-dc.pl/manjaro/",
-        "protocols": [
-            "https"
-        ]
-    },
-    {
-        "country": "Poland",
         "url": "https://repo.skni.umcs.pl/manjaro/",
         "protocols": [
             "https",
