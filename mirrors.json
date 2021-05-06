@@ -158,6 +158,14 @@
     },
     {
         "country": "China",
+        "url": "https://mirrors.pku.edu.cn/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "China",
         "url": "https://mirrors.aliyun.com/manjaro/",
         "protocols": [
             "https"
