@@ -251,6 +251,14 @@
         ]
     },
     {
+        "country": "Georgia",
+        "url": "https://repos.silknet.com/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Germany",
         "url": "https://mirror.alpix.eu/manjaro/",
         "protocols": [
