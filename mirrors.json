@@ -708,16 +708,16 @@
         ]
     },
     {
-        "country": "United_States",
-        "url": "https://repo.ialab.dsu.edu/manjaro/",
+        "country": "United_Kingdom",
+        "url": "https://mirrors.gethosted.online/manjaro/repos/",
         "protocols": [
             "https",
             "http"
         ]
-    },
+    },    
     {
         "country": "United_States",
-        "url": "https://mirrors.gethosted.online/manjaro/repos/",
+        "url": "https://repo.ialab.dsu.edu/manjaro/",
         "protocols": [
             "https",
             "http"
