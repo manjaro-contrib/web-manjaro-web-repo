@@ -359,7 +359,15 @@
             "https",
             "http"
         ]
-    },    
+    },
+    {
+        "country": "Global",
+        "url": "https://mirrors.manjaro.org/repo/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },      
     {
         "country": "Greece",
         "url": "https://ftp.cc.uoc.gr/mirrors/linux/manjaro/",
