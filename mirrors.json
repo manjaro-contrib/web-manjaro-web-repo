@@ -221,6 +221,14 @@
         ]
     },
     {
+        "country": "Finland",
+        "url": "https://manjaro.kyberorg.fi/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "France",
         "url": "https://mirror.oldsql.cc/manjaro/",
         "protocols": [
