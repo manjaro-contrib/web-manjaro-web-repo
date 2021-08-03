@@ -479,7 +479,7 @@
     },
     {
         "country": "Netherlands",
-        "url": "https://mirror.easylee.nl/manjaro/",
+        "url": "https://mirror.erickochen.nl/manjaro/",
         "protocols": [
             "http",
             "https"
