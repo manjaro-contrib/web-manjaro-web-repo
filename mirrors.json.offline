@@ -28,6 +28,13 @@
         ]
     },
     {
+        "country": "Brazil",
+        "url": "https://www.caco.ic.unicamp.br/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },    
+    {
         "country": "Canada",
         "url": "https://miroir.cedille.club/manjaro/",
         "protocols": [
@@ -87,6 +94,13 @@
             "http"
         ]
     },
+    {
+        "country": "Germany",
+        "url": "http://mirror.netzspielplatz.de/manjaro/packages/",
+        "protocols": [
+            "http"
+        ]
+    },    
     {
         "country": "Germany",
         "url": "http://mirror.ragenetwork.de/manjaro/",
@@ -185,6 +199,13 @@
             "http"
         ]
     },
+    {
+        "country": "United_States",
+        "url": "https://mirror.dacentec.com/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },    
     {
         "country": "Vietnam",
         "url": "https://manjaro.chocomint.co/manjaro/",

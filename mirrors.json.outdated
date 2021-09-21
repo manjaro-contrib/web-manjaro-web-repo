@@ -21,6 +21,13 @@ Outdated mirrors:
         ]
     },
     {
+        "country": "Brazil",
+        "url": "http://linorg.usp.br/manjaro/",
+        "protocols": [
+            "http"
+        ]
+    },    
+    {
         "country": "Belgium",
         "url": "http://ftp.belnet.be/mirrors/manjaro/",
         "protocols": [
@@ -50,6 +57,13 @@ Outdated mirrors:
         ]
     },
     {
+        "country": "France",
+        "url": "https://mirror.oldsql.cc/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },    
+    {
         "country": "Iran",
         "url": "https://repo.sadjad.ac.ir/manjaro/",
         "protocols": [
@@ -64,6 +78,15 @@ Outdated mirrors:
             "https"
         ]
     },
+    {
+        "country": "Netherlands",
+        "url": "https://mirror.serverion.com/manjaro/",
+        "protocols": [
+            "https",
+            "http",
+            "ftp"
+        ]
+    },    
     {
         "country": "Poland",
         "url": "https://mirror.chmuri.net/manjaro/",
