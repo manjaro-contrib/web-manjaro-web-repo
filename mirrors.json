@@ -324,7 +324,7 @@
     },
     {
         "country": "Germany",
-        "url": "https://manjaro.moson.org/",
+        "url": "https://mirror.moson.org/manjaro/",
         "protocols": [
             "http",
             "https"
