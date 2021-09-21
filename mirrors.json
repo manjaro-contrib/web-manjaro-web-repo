@@ -144,7 +144,15 @@
     },
     {
         "country": "China",
-        "url": "https://mirror.nju.edu.cn/manjaro//",
+        "url": "https://mirrors.pku.edu.cn/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },      
+    {
+        "country": "China",
+        "url": "https://mirror.nju.edu.cn/manjaro/",
         "protocols": [
             "https",
             "http"
