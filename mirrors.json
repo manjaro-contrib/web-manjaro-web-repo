@@ -687,6 +687,13 @@
     },
     {
         "country": "United_Kingdom",
+        "url": "https://mirror.moson.org/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
+        "country": "United_Kingdom",
         "url": "http://manjaro.mirrors.uk2.net/",
         "protocols": [
             "http"
