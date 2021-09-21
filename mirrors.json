@@ -302,8 +302,7 @@
         "country": "Germany",
         "url": "https://mirror.23m.com/manjaro/",
         "protocols": [
-            "https",
-            "http"
+            "https"
         ]
     },
     {
