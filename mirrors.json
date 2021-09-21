@@ -294,8 +294,7 @@
         "country": "Germany",
         "url": "https://mirror.atysleaks.org/manjaro/",
         "protocols": [
-            "https",
-            "http"
+            "https"
         ]
     },    
     {
