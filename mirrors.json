@@ -91,6 +91,14 @@
     },
     {
         "country": "Canada",
+        "url": "https://muug.ca/mirror/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "Canada",
         "url": "https://mirror.0xem.ma/manjaro/",
         "protocols": [
             "https",
