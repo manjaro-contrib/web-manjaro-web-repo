@@ -300,7 +300,7 @@
     },    
     {
         "country": "Germany",
-        "url": "https://mirror.23media.com/manjaro/",
+        "url": "https://mirror.23m.com/manjaro/",
         "protocols": [
             "https",
             "http"
