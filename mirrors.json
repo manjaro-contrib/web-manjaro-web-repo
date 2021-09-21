@@ -289,14 +289,7 @@
             "http",
             "ftp"
         ]
-    },
-    {
-        "country": "Germany",
-        "url": "https://mirror.atysleaks.org/manjaro/",
-        "protocols": [
-            "https"
-        ]
-    },    
+    },  
     {
         "country": "Germany",
         "url": "https://mirror.23m.com/manjaro/",
