@@ -277,14 +277,6 @@
     },
     {
         "country": "Germany",
-        "url": "https://manjaro.re/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
-        "country": "Germany",
         "url": "https://ftp.gwdg.de/pub/linux/manjaro/",
         "protocols": [
             "https",

@@ -62,7 +62,15 @@ Outdated mirrors:
         "protocols": [
             "https"
         ]
-    },    
+    },
+    {
+        "country": "Germany",
+        "url": "https://manjaro.re/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },       
     {
         "country": "Iran",
         "url": "https://repo.sadjad.ac.ir/manjaro/",
