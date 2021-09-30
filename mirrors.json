@@ -571,9 +571,8 @@
     },
     {
         "country": "Singapore",
-        "url": "https://ossmirror.mycloud.services/os/linux/manjaro/",
+        "url": "http://ossmirror.mycloud.services/os/linux/manjaro/",
         "protocols": [
-            "https",
             "http"
         ]
     },
