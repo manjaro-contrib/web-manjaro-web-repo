@@ -570,6 +570,14 @@
         ]
     },
     {
+        "country": "Singapore",
+        "url": "https://ossmirror.mycloud.services/os/linux/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "South_Africa",
         "url": "http://mirror.is.co.za/mirrors/manjaro.org/",
         "protocols": [
