@@ -138,6 +138,14 @@
     },
     {
         "country": "Netherlands",
+        "url": "https://mirror.erickochen.nl/manjaro/",
+        "protocols": [
+            "http",
+            "https"
+        ]
+    },    
+    {
+        "country": "Netherlands",
         "url": "https://mirror.neostrada.nl/manjaro/",
         "protocols": [
             "ftp",

@@ -457,14 +457,6 @@
     },
     {
         "country": "Netherlands",
-        "url": "https://mirror.erickochen.nl/manjaro/",
-        "protocols": [
-            "http",
-            "https"
-        ]
-    },
-    {
-        "country": "Netherlands",
         "url": "https://manjaro.mirrors.lavatech.top/",
         "protocols": [
             "http",
