@@ -403,6 +403,14 @@
         ]
     },
     {
+        "country": "Iran",
+        "url": "https://mirror.bardia.tech/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Iceland",
         "url": "https://mirrors.opensource.is/manjaro/",
         "protocols": [
