@@ -598,6 +598,13 @@
         ]
     },
     {
+        "country": "South_Korea",
+        "url": "https://mirror.funami.tech/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
         "country": "Spain",
         "url": "https://ftp.caliu.cat/pub/distribucions/manjaro/",
         "protocols": [
