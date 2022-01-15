@@ -12,7 +12,29 @@
         "protocols": [
             "http"
         ]
+    },
+    {
+        "country": "Indonesia",
+        "url": "https://mirror.deace.id/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "Indonesia",
+        "url": "http://kartolo.sby.datautama.net.id/manjaro/",
+        "protocols": [
+            "http"
+        ]
     },    
+    {
+        "country": "Bulgaria",
+        "url": "http://manjaro.telecoms.bg/",
+        "protocols": [
+            "http"
+        ]
+    },     
     {
         "country": "Belgium",
         "url": "https://manjaro.cu.be/",

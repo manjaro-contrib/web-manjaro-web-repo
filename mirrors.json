@@ -16,12 +16,21 @@
     },
     {
         "country": "Austria",
-        "url": "http://mirror.easyname.at/manjaro/",
+        "url": "https://mirror.easyname.at/manjaro/",
         "protocols": [
+            "https",
             "http",
             "ftp"
         ]
     },
+    {
+        "country": "Austria",
+        "url": "https://mirror.alwyzon.net/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },    
     {
         "country": "Bangladesh",
         "url": "http://mirror.xeonbd.com/manjaro/",
@@ -110,13 +119,6 @@
         "url": "https://osmirror.org/manjaro/",
         "protocols": [
             "https"
-        ]
-    },
-    {
-        "country": "Bulgaria",
-        "url": "http://manjaro.telecoms.bg/",
-        "protocols": [
-            "http"
         ]
     },
     {
@@ -368,21 +370,6 @@
         "url": "https://quantum-mirror.hu/mirrors/pub/manjaro/",
         "protocols": [
             "https",
-            "http"
-        ]
-    },
-    {
-        "country": "Indonesia",
-        "url": "https://mirror.deace.id/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
-        "country": "Indonesia",
-        "url": "http://kartolo.sby.datautama.net.id/manjaro/",
-        "protocols": [
             "http"
         ]
     },
