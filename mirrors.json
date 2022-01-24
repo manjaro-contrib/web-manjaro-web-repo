@@ -600,6 +600,14 @@
         ]
     },
     {
+        "country": "Spain",
+        "url": "https://mirrors.ft.uam.es/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Sweden",
         "url": "https://ftp.lysator.liu.se/pub/manjaro/",
         "protocols": [
