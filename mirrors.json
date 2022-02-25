@@ -451,6 +451,14 @@
         ]
     },
     {
+        "country": "MENA",
+        "url": "https://mirror.arvancloud.com/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Netherlands",
         "url": "https://manjaro.mirrors.lavatech.top/",
         "protocols": [
@@ -711,14 +719,6 @@
     {
         "country": "United_Kingdom",
         "url": "https://mirrors.gethosted.online/manjaro/repos/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
-        "country": "United_States",
-        "url": "https://mirror.arvancloud.com/manjaro/",
         "protocols": [
             "https",
             "http"
