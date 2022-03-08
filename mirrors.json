@@ -726,6 +726,14 @@
     },
     {
         "country": "United_States",
+        "url": "https://mirror.fcix.net/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "United_States",
         "url": "https://repo.ialab.dsu.edu/manjaro/",
         "protocols": [
             "https",
