@@ -726,9 +726,8 @@
     },
     {
         "country": "United_States",
-        "url": "https://mirror.fcix.net/manjaro/",
+        "url": "http://mirror.fcix.net/manjaro/",
         "protocols": [
-            "https",
             "http"
         ]
     },
