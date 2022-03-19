@@ -233,6 +233,14 @@
         ]
     },
     {
+        "country": "Estonia",
+        "url": "https://mirrors.xtom.ee/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Finland",
         "url": "https://manjaro.kyberorg.fi/",
         "protocols": [
@@ -277,6 +285,14 @@
             "https"
         ]
     },
+    {
+        "country": "Germany",
+        "url": "https://mirrors.xtom.de/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },  
     {
         "country": "Germany",
         "url": "https://ftp.gwdg.de/pub/linux/manjaro/",
@@ -437,6 +453,14 @@
     },
     {
         "country": "Japan",
+        "url": "https://mirrors.xtom.jp/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "Japan",
         "url": "http://ftp.tsukuba.wide.ad.jp/Linux/manjaro/",
         "protocols": [
             "http"
@@ -539,6 +563,14 @@
         "country": "Portugal",
         "url": "http://ftp.dei.uc.pt/pub/linux/manjaro/",
         "protocols": [
+            "http"
+        ]
+    },
+    {
+        "country": "Portugal",
+        "url": "https://mirrors.up.pt/pub/manjaro/",
+        "protocols": [
+            "https",
             "http"
         ]
     },
