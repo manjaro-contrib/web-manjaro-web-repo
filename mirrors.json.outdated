@@ -116,4 +116,10 @@ Outdated mirrors:
             "http"
         ]
     },
-
+    {
+        "country": "United_States",
+        "url": "http://distro.ibiblio.org/manjaro/",
+        "protocols": [
+            "http"
+        ]
+    },
