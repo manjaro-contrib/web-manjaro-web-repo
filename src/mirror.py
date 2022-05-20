@@ -28,6 +28,8 @@ class Mirror():
                 self.state_file = state_file.read().decode("utf-8")
         except (urllib.error.URLError, socket.timeout) as e:
             self.logger.error("{}: can't read state file".format(self.url), e, False)
+        except urllib.error.HTTPError as e:
+            self.logger.error(e)
 
     def read_state_file(self, hashes):
         """Read infos from state file"""
