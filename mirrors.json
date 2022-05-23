@@ -368,24 +368,8 @@
         ]
     },
     {
-        "country": "Hong_Kong",
-        "url": "http://ftp.cuhk.edu.hk/pub/Linux/manjaro/",
-        "protocols": [
-            "ftp",
-            "http"
-        ]
-    },
-    {
         "country": "Hungary",
         "url": "https://quantum-mirror.hu/mirrors/pub/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
-        "country": "India",
-        "url": "https://mirrors.piconets.webwerks.in/manjaro-mirror/",
         "protocols": [
             "https",
             "http"
@@ -405,15 +389,6 @@
         "protocols": [
             "https",
             "http"
-        ]
-    },
-    {
-        "country": "Iceland",
-        "url": "https://mirrors.opensource.is/manjaro/",
-        "protocols": [
-            "https",
-            "http",
-            "ftp"
         ]
     },
     {
@@ -521,14 +496,6 @@
             "http"
         ]
     },
-    {
-        "country": "Pakistan",
-        "url": "https://repo.inara.pk/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },   
     {
         "country": "Philippines",
         "url": "http://mirror.rise.ph/manjaro/",
@@ -722,15 +689,7 @@
             "http",
             "ftp"
         ]
-    },
-    {
-        "country": "Ukraine",
-        "url": "https://fastmirror.pp.ua/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },    
+    },  
     {
         "country": "United_Kingdom",
         "url": "https://www.mirrorservice.org/sites/repo.manjaro.org/repos/",
@@ -795,14 +754,6 @@
         "url": "https://mirror.math.princeton.edu/pub/manjaro/",
         "protocols": [
             "https"
-        ]
-    },
-    {
-        "country": "United_States",
-        "url": "https://mirrors.gigenet.com/manjaro/",
-        "protocols": [
-            "https",
-            "http"
         ]
     },
     {
