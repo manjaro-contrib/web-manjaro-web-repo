@@ -453,6 +453,14 @@
     },
     {
         "country": "Netherlands",
+        "url": "https://manjaro.mirror.wearetriple.com",
+        "protocols": [
+            "http",
+            "https"
+        ]
+    },
+    {
+        "country": "Netherlands",
         "url": "https://manjaro.mirrors.lavatech.top/",
         "protocols": [
             "http",
