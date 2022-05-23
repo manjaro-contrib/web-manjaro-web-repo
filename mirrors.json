@@ -32,13 +32,6 @@
         ]
     },    
     {
-        "country": "Bangladesh",
-        "url": "http://mirror.xeonbd.com/manjaro/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
         "country": "Belarus",
         "url": "http://mirror.datacenter.by/pub/mirrors/manjaro/",
         "protocols": [
@@ -254,13 +247,6 @@
         "protocols": [
             "https",
             "http"
-        ]
-    },
-    {
-        "country": "France",
-        "url": "https://manjaro.ynh.ovh/",
-        "protocols": [
-            "https"
         ]
     },
     {
@@ -553,7 +539,7 @@
     },
     {
         "country": "Poland",
-        "url": "https://ftp.icm.edu.pl/pub/Linux/dist/manjaro//",
+        "url": "https://ftp.icm.edu.pl/pub/Linux/dist/manjaro/",
         "protocols": [
             "https",
             "http",
@@ -577,14 +563,6 @@
             "http"
         ]
     },        
-    {
-        "country": "Poland",
-        "url": "http://ftp.vectranet.pl/manjaro/",
-        "protocols": [
-            "http",
-            "ftp"
-        ]
-    },
     {
         "country": "Portugal",
         "url": "http://ftp.dei.uc.pt/pub/linux/manjaro/",
@@ -815,13 +793,6 @@
     {
         "country": "United_States",
         "url": "https://mirror.math.princeton.edu/pub/manjaro/",
-        "protocols": [
-            "https"
-        ]
-    },
-    {
-        "country": "United_States",
-        "url": "https://mirror.clarkson.edu/manjaro/",
         "protocols": [
             "https"
         ]

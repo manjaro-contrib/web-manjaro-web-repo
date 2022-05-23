@@ -36,6 +36,13 @@ Outdated mirrors:
         ]
     },
     {
+        "country": "Bangladesh",
+        "url": "http://mirror.xeonbd.com/manjaro/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
         "country": "Colombia",
         "url": "http://mirror.upb.edu.co/manjaro/",
         "protocols": [
@@ -59,6 +66,13 @@ Outdated mirrors:
     {
         "country": "France",
         "url": "https://mirror.oldsql.cc/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
+        "country": "France",
+        "url": "https://manjaro.ynh.ovh/",
         "protocols": [
             "https"
         ]
@@ -103,6 +117,14 @@ Outdated mirrors:
         ]
     },
     {
+        "country": "Poland",
+        "url": "http://ftp.vectranet.pl/manjaro/",
+        "protocols": [
+            "http",
+            "ftp"
+        ]
+    },
+    {
         "country": "Sweden",
         "url": "https://mirror.operationtulip.com/manjaro/",
         "protocols": [
@@ -121,5 +143,12 @@ Outdated mirrors:
         "url": "http://distro.ibiblio.org/manjaro/",
         "protocols": [
             "http"
+        ]
+    },
+    {
+        "country": "United_States",
+        "url": "https://mirror.clarkson.edu/manjaro/",
+        "protocols": [
+            "https"
         ]
     },
