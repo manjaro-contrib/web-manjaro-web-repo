@@ -250,6 +250,13 @@
         ]
     },
     {
+        "country": "France",
+        "url": "http://mirror.ibakerserver.pt/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
         "country": "Georgia",
         "url": "http://manjaro.grena.ge/",
         "protocols": [
