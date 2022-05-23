@@ -577,6 +577,14 @@
     },
     {
         "country": "Singapore",
+        "url": "https://mirror.freedif.org/Manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "Singapore",
         "url": "https://download.nus.edu.sg/mirror/manjaro/",
         "protocols": [
             "https"
@@ -587,6 +595,14 @@
         "url": "http://ossmirror.mycloud.services/os/linux/manjaro/",
         "protocols": [
             "http"
+        ]
+    },
+    {
+        "country": "Singapore",
+        "url": "http://mirror.guillaumea.fr/manjaro/",
+        "protocols": [
+            "http",
+            "https"
         ]
     },
     {
