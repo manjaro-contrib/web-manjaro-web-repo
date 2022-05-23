@@ -692,12 +692,20 @@
     },
     {
         "country": "Ukraine",
+        "url": "http://manjaro.astra.in.ua/",
+        "protocols": [
+            "http",
+            "https"
+        ]
+    },  
+    {
+        "country": "Ukraine",
         "url": "http://mirrors.colocall.net/manjaro/",
         "protocols": [
             "http",
             "ftp"
         ]
-    },  
+    },
     {
         "country": "United_Kingdom",
         "url": "https://www.mirrorservice.org/sites/repo.manjaro.org/repos/",
