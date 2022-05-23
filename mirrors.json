@@ -343,6 +343,14 @@
         ]
     },
     {
+        "country": "Germany",
+        "url": "https://mirror.informatik.tu-freiberg.de/manjaro/",
+        "protocols": [
+            "http",
+            "https"
+        ]
+    },
+    {
         "country": "Global",
         "url": "https://mirrors.fossho.st/manjaro/",
         "protocols": [
