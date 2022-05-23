@@ -666,6 +666,14 @@
         ]
     },
     {
+        "country": "Taiwan",
+        "url": "http://mirror.archlinux.tw/Manjaro/",
+        "protocols": [
+            "http",
+            "https"
+        ]
+    },
+    {
         "country": "Thailand",
         "url": "https://mirror.kku.ac.th/manjaro/",
         "protocols": [
