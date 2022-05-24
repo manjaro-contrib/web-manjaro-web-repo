@@ -160,14 +160,6 @@
         ]
     },
     {
-        "country": "India",
-        "url": "https://mirrors.piconets.webwerks.in/manjaro-mirror/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
         "country": "Indonesia",
         "url": "http://kambing.ui.ac.id/manjaro/",
         "protocols": [

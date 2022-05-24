@@ -420,6 +420,14 @@
         ]
     },
     {
+        "country": "India",
+        "url": "https://mirrors.piconets.webwerks.in/manjaro-mirror/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Japan",
         "url": "http://ftp.riken.jp/Linux/manjaro/",
         "protocols": [
