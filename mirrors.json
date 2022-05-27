@@ -431,8 +431,7 @@
         "country": "India",
         "url": "https://mirror.albony.xyz/manjaro/",
         "protocols": [
-            "https",
-            "http"
+            "https"
         ]
     },
     {
