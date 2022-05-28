@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-
-import json
 import socket
 import datetime
 
@@ -31,10 +29,8 @@ class Mirror():
                 Request(f"{self.url}state", headers={'User-Agent': UA}), timeout=10
                 ) as state_file:
                 self.state_file = state_file.read().decode("utf-8")
-        except (URLError, socket.timeout) as e:
+        except (URLError, socket.timeout, HTTPError) as e:
             self.logger.error(f"{self.url}: can't read state file", e, False)
-        except HTTPError as e:
-            self.logger.error(e)
 
     def read_state_file(self, hashes):
         """Read infos from state file"""
@@ -49,11 +45,11 @@ class Mirror():
             for i, branch in enumerate(BRANCHES):
                 url = f"{self.url}{branch}/state"
                 try:
-                    with urllib.request.urlopen(url, timeout=10) as state_file:
+                    with urlopen(url, timeout=10) as state_file:
                         state_file = state_file.read().decode("utf-8")
                         branch_hash = state_file.split("state=", 1)[1].split('\n')[0]
                         self.branches.append(int(branch_hash == hashes[i]))
-                except (urllib.error.URLError, socket.timeout) as e:
+                except (URLError, socket.timeout, HTTPError) as e:
                     self.logger.error(f"{url}: can't read hash from state file", e, False)
         if not self.last_sync:
             self.last_sync = -1
