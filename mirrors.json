@@ -584,6 +584,14 @@
     },
     {
         "country": "Russia",
+        "url": "https://mirror.kamtv.ru/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "Russia",
         "url": "https://mirror.truenetwork.ru/manjaro/",
         "protocols": [
             "https",
