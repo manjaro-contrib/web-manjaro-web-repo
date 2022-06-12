@@ -828,6 +828,14 @@
     },
     {
         "country": "United_States",
+        "url": "https://mnvoip.mm.fcix.net/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "United_States",
         "url": "https://mirrors.sonic.net/manjaro/",
         "protocols": [
             "https"
