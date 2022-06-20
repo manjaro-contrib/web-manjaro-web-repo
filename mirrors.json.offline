@@ -253,14 +253,6 @@
         "protocols": [
             "http"
         ]
-    },
-    {
-        "country": "Ukraine",
-        "url": "https://fastmirror.pp.ua/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
     },  
     {
         "country": "United_States",
