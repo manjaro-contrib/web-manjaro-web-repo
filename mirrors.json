@@ -859,6 +859,38 @@
     },
     {
         "country": "United_States",
+        "url": "https://forksystems.mm.fcix.net/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "United_States",
+        "url": "https://codingflyboy.mm.fcix.net/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "United_States",
+        "url": "http://coresite.mm.fcix.net/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "United_States",
+        "url": "https://ridgewireless.mm.fcix.net/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "United_States",
         "url": "https://mirrors.sonic.net/manjaro/",
         "protocols": [
             "https"
