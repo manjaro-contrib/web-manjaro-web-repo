@@ -227,7 +227,7 @@
     },
     {
         "country": "Czechia",
-        "url": "https://mirrors.nic.cz/manjaro",
+        "url": "https://mirrors.nic.cz/manjaro/",
         "protocols": [
             "https",
             "http"
