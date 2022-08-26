@@ -911,5 +911,13 @@
             "https",
             "http"
         ]
+    },
+    {
+        "country": "Uzbekistan",
+        "url": "https://mirror.dc.uz/manjaro",
+        "protocols": [
+            "https",
+            "http"
+        ]
     }
 ]
