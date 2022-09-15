@@ -365,6 +365,13 @@
         ]
     },
     {
+        "country": "Germany",
+        "url": "https://mirror.tarnkappe.info/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
         "country": "Global",
         "url": "https://mirrors.fossho.st/manjaro/",
         "protocols": [
