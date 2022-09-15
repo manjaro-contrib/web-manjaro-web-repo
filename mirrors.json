@@ -535,6 +535,14 @@
         ]
     },
     {
+        "country": "New_Zealand",
+        "url": "https://mirror.2degrees.nz/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Norway",
         "url": "http://mirror.terrahost.no/linux/manjaro/",
         "protocols": [
