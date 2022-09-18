@@ -39,6 +39,14 @@
         ]
     },
     {
+        "country": "Bangladesh",
+        "url": "https://bd.mirror.vanehost.com/Manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Belarus",
         "url": "http://mirror.datacenter.by/pub/mirrors/manjaro/",
         "protocols": [
