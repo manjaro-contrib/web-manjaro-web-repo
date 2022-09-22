@@ -350,14 +350,6 @@
     },
     {
         "country": "Germany",
-        "url": "https://manjaro.moson.eu/",
-        "protocols": [
-            "http",
-            "https"
-        ]
-    },
-    {
-        "country": "Germany",
         "url": "https://mirror.moson.org/manjaro/",
         "protocols": [
             "http",
