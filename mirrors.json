@@ -280,6 +280,13 @@
         ]
     },
     {
+        "country": "France",
+        "url": "https://manjaro.ynh.ovh/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
         "country": "Georgia",
         "url": "http://manjaro.grena.ge/",
         "protocols": [
