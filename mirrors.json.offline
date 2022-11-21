@@ -276,5 +276,13 @@
             "https",
             "http"
         ]
+    },
+    {
+        "country": "MENA",
+        "url": "https://mirror.arvancloud.com/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
     }
 ]

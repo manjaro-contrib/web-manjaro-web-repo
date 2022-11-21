@@ -495,14 +495,6 @@
         ]
     },
     {
-        "country": "MENA",
-        "url": "https://mirror.arvancloud.com/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
         "country": "Netherlands",
         "url": "https://manjaro.mirror.wearetriple.com",
         "protocols": [
