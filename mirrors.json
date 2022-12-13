@@ -242,6 +242,14 @@
         ]
     },
     {
+        "country": "Czechia",
+        "url": " https://mirror.it4i.cz/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Denmark",
         "url": "https://mirrors.dotsrc.org/manjaro/",
         "protocols": [
