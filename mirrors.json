@@ -243,7 +243,15 @@
     },
     {
         "country": "Czechia",
-        "url": " https://mirror.it4i.cz/manjaro/",
+        "url": "https://mirror.it4i.cz/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "Colombia",
+        "url": "https://edgeuno-bog2.mm.fcix.net/manjaro/",
         "protocols": [
             "https",
             "http"
