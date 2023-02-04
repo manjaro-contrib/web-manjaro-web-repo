@@ -873,6 +873,22 @@
     },
     {
         "country": "United_States",
+        "url": "https://nnenix.mm.fcix.net/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "United_States",
+        "url": "https://gsl-syd.mm.fcix.net/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "United_States",
         "url": "https://irltoolkit.mm.fcix.net/manjaro/",
         "protocols": [
             "https",
