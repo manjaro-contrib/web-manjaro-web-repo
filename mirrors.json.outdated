@@ -12,21 +12,7 @@ Outdated mirrors:
         "protocols": [
             "http"
         ]
-    },
-    {
-        "country": "Brazil",
-        "url": "http://mirror.ufam.edu.br/manjaro/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
-        "country": "Brazil",
-        "url": "http://linorg.usp.br/manjaro/",
-        "protocols": [
-            "http"
-        ]
-    },    
+    },   
     {
         "country": "Belgium",
         "url": "http://ftp.belnet.be/mirrors/manjaro/",

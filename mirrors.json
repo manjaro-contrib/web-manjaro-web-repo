@@ -77,6 +77,20 @@
         ]
     },
     {
+        "country": "Brazil",
+        "url": "https://mirror.ufam.edu.br/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
+        "country": "Brazil",
+        "url": "https://linorg.usp.br/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    }, 
+    {
         "country": "Bulgaria",
         "url": "https://mirrors.netix.net/manjaro/",
         "protocols": [
