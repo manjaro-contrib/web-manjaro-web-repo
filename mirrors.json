@@ -403,7 +403,7 @@
     },
     {
         "country": "Germany",
-        "url": "https://mirror.tarnkappe.info/manjaro/",
+        "url": "https://mirror.seahost.de/manjaro",
         "protocols": [
             "https"
         ]
