@@ -403,7 +403,7 @@
     },
     {
         "country": "Germany",
-        "url": "https://mirror.seahost.de/manjaro",
+        "url": "https://mirror.seahost.de/manjaro/",
         "protocols": [
             "https"
         ]
@@ -1014,7 +1014,7 @@
     },
     {
         "country": "Uzbekistan",
-        "url": "https://mirror.dc.uz/manjaro",
+        "url": "https://mirror.dc.uz/manjaro/",
         "protocols": [
             "https",
             "http"
