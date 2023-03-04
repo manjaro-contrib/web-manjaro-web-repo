@@ -152,6 +152,14 @@
         ]
     },
     {
+        "country": "Global",
+        "url": "https://mirrors.fossho.st/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Hong_Kong",
         "url": "http://ftp.cuhk.edu.hk/pub/Linux/manjaro/",
         "protocols": [

@@ -410,14 +410,6 @@
     },
     {
         "country": "Global",
-        "url": "https://mirrors.fossho.st/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
-        "country": "Global",
         "url": "https://mirrors.manjaro.org/repo/",
         "protocols": [
             "https",
