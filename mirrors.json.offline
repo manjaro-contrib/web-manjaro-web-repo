@@ -255,6 +255,14 @@
         ]
     },
     {
+        "country": "Singapore",
+        "url": "http://mirror.guillaumea.fr/manjaro/",
+        "protocols": [
+            "http",
+            "https"
+        ]
+    },
+    {
         "country": "South_Korea",
         "url": "https://mirror.krmir.org/manjaro/",
         "protocols": [

@@ -657,14 +657,6 @@
         ]
     },
     {
-        "country": "Singapore",
-        "url": "http://mirror.guillaumea.fr/manjaro/",
-        "protocols": [
-            "http",
-            "https"
-        ]
-    },
-    {
         "country": "South_Africa",
         "url": "http://mirror.is.co.za/mirrors/manjaro.org/",
         "protocols": [
