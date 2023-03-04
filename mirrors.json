@@ -153,13 +153,6 @@
     },
     {
         "country": "Chile",
-        "url": "http://manjaro.dcc.uchile.cl/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
-        "country": "Chile",
         "url": "https://mirror.ufro.cl/manjaro/",
         "protocols": [
             "https"

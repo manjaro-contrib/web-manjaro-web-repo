@@ -89,6 +89,13 @@
         ]
     },
     {
+        "country": "Chile",
+        "url": "http://manjaro.dcc.uchile.cl/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
         "country": "Colombia",
         "url": "http://mirror.edatel.net.co/manjaro/",
         "protocols": [
