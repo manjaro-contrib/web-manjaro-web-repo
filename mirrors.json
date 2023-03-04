@@ -503,7 +503,7 @@
     },
     {
         "country": "Netherlands",
-        "url": "https://manjaro.mirror.wearetriple.com",
+        "url": "https://manjaro.mirror.wearetriple.com/",
         "protocols": [
             "http",
             "https"
