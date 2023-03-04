@@ -239,7 +239,14 @@
             "http",
             "ftp"
         ]
-    },    
+    },
+    {
+        "country": "South_Korea",
+        "url": "https://mirror.d-tl.com/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },   
     {
         "country": "Spain",
         "url": "http://ftp.caliu.cat/manjaro/",
