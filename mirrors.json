@@ -542,7 +542,7 @@
     },
     {
         "country": "New_Zealand",
-        "url": "http://manjaro.mirrors.theom.nz/",
+        "url": "http://manjaro.mirrors.theom.nz/manjaro/",
         "protocols": [
             "http"
         ]
