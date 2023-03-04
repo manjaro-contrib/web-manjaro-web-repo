@@ -694,14 +694,6 @@
         ]
     },
     {
-        "country": "Spain",
-        "url": "https://ftp.cixug.es/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
         "country": "Sweden",
         "url": "https://ftp.lysator.liu.se/pub/manjaro/",
         "protocols": [

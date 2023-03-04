@@ -286,6 +286,14 @@
         ]
     },
     {
+        "country": "Spain",
+        "url": "https://ftp.cixug.es/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "United_Kingdom",
         "url": "http://repo.manjaro.org.uk/",
         "protocols": [
