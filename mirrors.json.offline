@@ -125,6 +125,14 @@
     },
     {
         "country": "Germany",
+        "url": "https://mirror.informatik.tu-freiberg.de/manjaro/",
+        "protocols": [
+            "http",
+            "https"
+        ]
+    },
+    {
+        "country": "Germany",
         "url": "http://mirror.netzspielplatz.de/manjaro/packages/",
         "protocols": [
             "http"
