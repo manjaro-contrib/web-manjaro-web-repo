@@ -32,6 +32,13 @@
         ]
     },
     {
+        "country": "Armenia",
+        "url": "http://manjaro.ucom.am/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
         "country": "Bangladesh",
         "url": "http://mirror.xeonbd.com/manjaro/",
         "protocols": [
