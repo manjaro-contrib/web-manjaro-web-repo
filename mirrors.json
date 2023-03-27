@@ -387,14 +387,6 @@
     },
     {
         "country": "Germany",
-        "url": "https://mirror.moson.org/manjaro/",
-        "protocols": [
-            "http",
-            "https"
-        ]
-    },
-    {
-        "country": "Germany",
         "url": "https://mirror.seahost.de/manjaro/",
         "protocols": [
             "https"
