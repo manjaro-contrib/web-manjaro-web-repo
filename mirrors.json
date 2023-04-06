@@ -718,14 +718,6 @@
     },
     {
         "country": "Switzerland",
-        "url": "https://manjaro.osmir.ch/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
-        "country": "Switzerland",
         "url": "https://mirror.init7.net/manjaro/",
         "protocols": [
             "https",
