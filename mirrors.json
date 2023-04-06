@@ -470,6 +470,21 @@
         ]
     },
     {
+        "country": "India",
+        "url": "https://mirrors.vishnetwork.in/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
+        "country": "Mauritius",
+        "url": "https://manjarolinux-mirror.cloud.mu/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Japan",
         "url": "http://ftp.riken.jp/Linux/manjaro/",
         "protocols": [
