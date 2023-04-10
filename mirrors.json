@@ -959,6 +959,22 @@
     },
     {
         "country": "United_States",
+        "url": "https://volico.mm.fcix.net/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "United_States",
+        "url": "https://ohioix.mm.fcix.net/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "United_States",
         "url": "https://mirrors.sonic.net/manjaro/",
         "protocols": [
             "https"
