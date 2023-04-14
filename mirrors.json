@@ -160,13 +160,6 @@
         ]
     },
     {
-        "country": "Canada",
-        "url": "https://osmirror.org/manjaro/",
-        "protocols": [
-            "https"
-        ]
-    },
-    {
         "country": "Chile",
         "url": "https://mirror.ufro.cl/manjaro/",
         "protocols": [
