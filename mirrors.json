@@ -235,6 +235,14 @@
         ]
     },
     {
+        "country": "China",
+        "url": "https://mirrors.jlu.edu.cn/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Costa_Rica",
         "url": "https://mirrors.ucr.ac.cr/manjaro/",
         "protocols": [
@@ -769,7 +777,8 @@
         "url": "http://ftp.linux.org.tr/manjaro/",
         "protocols": [
             "ftp",
-            "http"
+            "http",
+            "https"
         ]
     },
     {
