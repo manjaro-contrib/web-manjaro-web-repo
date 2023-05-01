@@ -145,14 +145,6 @@
         ]
     },
     {
-        "country": "Canada",
-        "url": "https://mirror.0xem.ma/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
         "country": "Chile",
         "url": "https://mirror.ufro.cl/manjaro/",
         "protocols": [
@@ -788,14 +780,6 @@
         "protocols": [
             "http",
             "ftp"
-        ]
-    },
-    {
-        "country": "Ukraine",
-        "url": "https://fastmirror.pp.ua/manjaro/",
-        "protocols": [
-            "https",
-            "http"
         ]
     },
     {
