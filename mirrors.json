@@ -783,6 +783,14 @@
         ]
     },
     {
+        "country": "Ukraine",
+        "url": "https://fastmirror.pp.ua/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "United_Kingdom",
         "url": "https://www.mirrorservice.org/sites/repo.manjaro.org/repos/",
         "protocols": [
