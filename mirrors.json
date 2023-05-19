@@ -204,13 +204,6 @@
         "protocols": [
             "https"
         ]
-    },
-    {
-        "country": "China",
-        "url": "https://mirrors.tuna.tsinghua.edu.cn/manjaro/",
-        "protocols": [
-            "https"
-        ]
     },    
     {
         "country": "China",
