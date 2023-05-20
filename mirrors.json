@@ -813,6 +813,14 @@
         ]
     },
     {
+        "country": "United_Kingdom",
+        "url": "https://mirror.vinehost.net/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "United_States",
         "url": "http://mirror.fcix.net/manjaro/",
         "protocols": [
