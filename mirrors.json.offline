@@ -20,13 +20,6 @@
             "https",
             "http"
         ]
-    },
-    {
-        "country": "Indonesia",
-        "url": "http://kartolo.sby.datautama.net.id/manjaro/",
-        "protocols": [
-            "http"
-        ]
     },    
     {
         "country": "Bulgaria",
@@ -69,13 +62,6 @@
         "url": "https://mirrors.shuosc.org/manjaro/",
         "protocols": [
             "ftp",
-            "https"
-        ]
-    },
-    {
-        "country": "China",
-        "url": "https://mirrors.zju.edu.cn/manjaro/",
-        "protocols": [
             "https"
         ]
     },
@@ -141,13 +127,6 @@
     {
         "country": "Germany",
         "url": "http://mirror.ragenetwork.de/manjaro/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
-        "country": "Germany",
-        "url": "http://ftp.rz.tu-bs.de/pub/mirror/manjaro.org/repos/",
         "protocols": [
             "http"
         ]
@@ -300,14 +279,6 @@
             "http"
         ]
     },  
-    {
-        "country": "United_States",
-        "url": "https://mirrors.gigenet.com/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
     {
         "country": "United_States",
         "url": "https://mirror.dacentec.com/manjaro/",
