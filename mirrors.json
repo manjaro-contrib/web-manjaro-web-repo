@@ -982,6 +982,22 @@
         ]
     },
     {
+        "country": "United_States",
+        "url": "https://nocix.mm.fcix.net/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "United_States",
+        "url": "https://ask4.mm.fcix.net/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Uruguay",
         "url": "https://manjaro.repo.cure.edu.uy/",
         "protocols": [
