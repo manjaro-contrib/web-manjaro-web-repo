@@ -516,6 +516,13 @@
         ]
     },
     {
+        "country": "Japan",
+        "url": "https://mirror.phoepsilonix.love/manjaro/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
         "country": "Kenya",
         "url": "https://manjaro.mirror.liquidtelecom.com/",
         "protocols": [
