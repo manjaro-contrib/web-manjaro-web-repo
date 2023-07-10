@@ -295,6 +295,14 @@
         ]
     },
     {
+        "country": "Philippines",
+        "url": "http://mirror.rise.ph/manjaro/",
+        "protocols": [
+            "http",
+            "ftp"
+        ]
+    },
+    {
         "country": "MENA",
         "url": "https://mirror.arvancloud.com/manjaro/",
         "protocols": [
