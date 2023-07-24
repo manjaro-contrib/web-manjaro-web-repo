@@ -403,6 +403,14 @@
     },      
     {
         "country": "Greece",
+        "url": "https://fosszone.csd.auth.gr/manjaro/",
+        "protocols": [
+            "http",
+            "https"
+        ]
+    },
+    {
+        "country": "Greece",
         "url": "https://ftp.cc.uoc.gr/mirrors/linux/manjaro/",
         "protocols": [
             "ftp",
