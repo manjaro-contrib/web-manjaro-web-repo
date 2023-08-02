@@ -228,6 +228,14 @@
         ]
     },
     {
+        "country": "China",
+        "url": "https://mirror.nyist.edu.cn/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Costa_Rica",
         "url": "https://mirrors.ucr.ac.cr/manjaro/",
         "protocols": [
