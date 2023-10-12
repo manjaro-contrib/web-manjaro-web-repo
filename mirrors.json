@@ -748,7 +748,15 @@
             "https",
             "http"
         ]
-    },    
+    },
+    {
+      "country": "Serbia",
+      "url": "https://mirror1.sox.rs/manjaro/",
+      "protocols": [
+          "https",
+          "http"
+      ]
+  },    
     {
         "country": "Taiwan",
         "url": "http://free.nchc.org.tw/manjaro/",
