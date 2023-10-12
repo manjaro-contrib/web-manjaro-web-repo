@@ -528,6 +528,7 @@
         "country": "Japan",
         "url": "https://mirror.phoepsilonix.love/manjaro/",
         "protocols": [
+            "https",
             "http"
         ]
     },
