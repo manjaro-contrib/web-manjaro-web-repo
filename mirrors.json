@@ -807,13 +807,6 @@
     },
     {
         "country": "United_Kingdom",
-        "url": "https://mirror.cyberhost.uk/sites/manjaro/",
-        "protocols": [
-            "https"
-        ]
-    },
-    {
-        "country": "United_Kingdom",
         "url": "http://manjaro.mirrors.uk2.net/",
         "protocols": [
             "http"
