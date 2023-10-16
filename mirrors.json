@@ -175,14 +175,6 @@
             "https",
             "http"
         ]
-    },      
-    {
-        "country": "China",
-        "url": "https://mirrors.huaweicloud.com/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
     },
     {
         "country": "China",

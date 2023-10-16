@@ -29,6 +29,14 @@ Outdated mirrors:
         ]
     },
     {
+        "country": "China",
+        "url": "https://mirrors.huaweicloud.com/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Colombia",
         "url": "http://mirror.upb.edu.co/manjaro/",
         "protocols": [
