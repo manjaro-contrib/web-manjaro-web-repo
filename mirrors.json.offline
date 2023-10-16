@@ -75,6 +75,13 @@
         ]
     },
     {
+        "country": "China",
+        "url": "https://mirrors.zju.edu.cn/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
         "country": "Chile",
         "url": "http://manjaro.dcc.uchile.cl/",
         "protocols": [
