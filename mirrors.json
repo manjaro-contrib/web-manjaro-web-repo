@@ -792,14 +792,6 @@
     },
     {
         "country": "Ukraine",
-        "url": "http://manjaro.astra.in.ua/",
-        "protocols": [
-            "http",
-            "https"
-        ]
-    },  
-    {
-        "country": "Ukraine",
         "url": "https://fastmirror.pp.ua/manjaro/",
         "protocols": [
             "https",

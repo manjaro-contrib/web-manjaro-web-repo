@@ -273,6 +273,14 @@
         ]
     },
     {
+        "country": "Ukraine",
+        "url": "http://manjaro.astra.in.ua/",
+        "protocols": [
+            "http",
+            "https"
+        ]
+    },
+    {
         "country": "United_Kingdom",
         "url": "http://repo.manjaro.org.uk/",
         "protocols": [
