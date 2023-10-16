@@ -222,13 +222,6 @@
     },
     {
         "country": "China",
-        "url": "https://mirrors.zju.edu.cn/manjaro/",
-        "protocols": [
-            "https"
-        ]
-    },
-    {
-        "country": "China",
         "url": "https://mirror.nyist.edu.cn/manjaro/",
         "protocols": [
             "https",
