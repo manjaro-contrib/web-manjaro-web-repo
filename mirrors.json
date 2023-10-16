@@ -862,14 +862,6 @@
     },
     {
         "country": "United_States",
-        "url": "https://mirror2.sandyriver.net/pub/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
-        "country": "United_States",
         "url": "https://mirrors.ocf.berkeley.edu/manjaro/",
         "protocols": [
             "https"
