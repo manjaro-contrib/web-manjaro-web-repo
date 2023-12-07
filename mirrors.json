@@ -397,10 +397,16 @@
         "country": "Global",
         "url": "https://mirrors.manjaro.org/repo/",
         "protocols": [
-            "https",
-            "http"
+            "https"
         ]
-    },      
+    },
+    {
+        "country": "Global",
+        "url": "https://mirrors2.manjaro.org/",
+        "protocols": [
+            "https"
+        ]
+    },    
     {
         "country": "Greece",
         "url": "https://fosszone.csd.auth.gr/manjaro/",
