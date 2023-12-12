@@ -395,7 +395,7 @@
     },
     {
         "country": "Global",
-        "url": "https://mirrors.manjaro.org/repo/",
+        "url": "https://mirrors.manjaro.org/",
         "protocols": [
             "https"
         ]
