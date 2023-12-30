@@ -406,7 +406,15 @@
         "protocols": [
             "https"
         ]
-    },    
+    },
+    {
+        "country": "Global",
+        "url": "https://mirrors.cicku.me/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },  
     {
         "country": "Greece",
         "url": "https://fosszone.csd.auth.gr/manjaro/",
