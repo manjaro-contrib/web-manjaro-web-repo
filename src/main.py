@@ -53,7 +53,7 @@ class StatusChecker():
         for i, mirror in enumerate(self.mirrors):
             print("({}/{}): {}".format(i + 1, nb, mirror["url"]))
             mirror = Mirror(mirror)
-            if not mirror.country in self.countries:
+            if mirror.country not in self.countries:
                 self.countries.append(mirror.country)
             mirror.get_state_file()
             mirror.read_state_file(self.hashes)
