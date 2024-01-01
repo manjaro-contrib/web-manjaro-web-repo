@@ -6,7 +6,7 @@ from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 
 from logger import Logger
-from conf import BRANCHES
+from conf import BRANCHES, UA
 
 
 class Mirror():
@@ -24,7 +24,6 @@ class Mirror():
     def get_state_file(self):
         """Fetch state file"""
         try:
-            UA = "ManjaroMirrorBot/1.0 (+http://repo.manjaro.org)"
             with urlopen(
                 Request(f"{self.url}state", headers={'User-Agent': UA}), timeout=10
                 ) as state_file:

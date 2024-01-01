@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 
 import json
-import urllib.request
-import time
 import socket
+import urllib
 
 from collections import OrderedDict
 from mirror import Mirror
 from builder import Builder
 from logger import Logger
-from conf import MIRRORS_URL, BRANCHES
+from conf import MIRRORS_URL, BRANCHES, UA
 
 
 class StatusChecker():
@@ -25,8 +24,10 @@ class StatusChecker():
 
     def get_mirrors(self):
         """Get list of mirrors"""
+        req = urllib.request.Request(MIRRORS_URL)
+        req.add_header('User-Agent', UA)
         try:
-            with urllib.request.urlopen(MIRRORS_URL, timeout=10) as mirrors_file:
+            with urllib.request.urlopen(req, timeout=10) as mirrors_file:
                 self.mirrors = json.loads(mirrors_file.read().decode("utf-8"),
                                           object_pairs_hook=OrderedDict)
         except (urllib.error.URLError, socket.timeout) as e:
