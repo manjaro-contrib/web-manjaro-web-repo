@@ -33,13 +33,6 @@
         ]
     },
     {
-        "country": "Armenia",
-        "url": "http://manjaro.ucom.am/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
         "country": "Bangladesh",
         "url": "http://mirror.xeonbd.com/manjaro/",
         "protocols": [
@@ -149,15 +142,6 @@
         "url": "https://mirror.ufro.cl/manjaro/",
         "protocols": [
             "https"
-        ]
-    },
-    {
-        "country": "Chile",
-        "url": "https://mirror1.cl.netactuate.com/manjaro/",
-        "protocols": [
-            "https",
-            "http",
-            "ftp"
         ]
     },
     {
@@ -609,28 +593,11 @@
     },
     {
         "country": "Poland",
-        "url": "https://ftp.icm.edu.pl/pub/Linux/dist/manjaro/",
-        "protocols": [
-            "https",
-            "http",
-            "ftp"
-        ]
-    },
-    {
-        "country": "Poland",
         "url": "https://ftp.psnc.pl/linux/manjaro/",
         "protocols": [
             "https",
             "http",
             "ftp"
-        ]
-    },
-    {
-        "country": "Poland",
-        "url": "https://repo.skni.umcs.pl/manjaro/",
-        "protocols": [
-            "https",
-            "http"
         ]
     },        
     {
@@ -820,14 +787,6 @@
     },
     {
         "country": "United_Kingdom",
-        "url": "https://mirrors.gethosted.online/manjaro/repos/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
-        "country": "United_Kingdom",
         "url": "https://mirror.vinehost.net/manjaro/",
         "protocols": [
             "https",
@@ -860,14 +819,6 @@
     {
         "country": "United_States",
         "url": "http://uvermont.mm.fcix.net/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
-        "country": "United_States",
-        "url": "https://ziply.mm.fcix.net/manjaro/",
         "protocols": [
             "https",
             "http"
