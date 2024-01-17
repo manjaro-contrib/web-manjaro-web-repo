@@ -570,6 +570,14 @@
         ]
     },
     {
+        "country": "Netherlands",
+        "url": "https://mirror.bouwhuis.network/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "New_Zealand",
         "url": "http://manjaro.mirrors.theom.nz/manjaro/",
         "protocols": [
