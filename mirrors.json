@@ -311,6 +311,13 @@
     },
     {
         "country": "Germany",
+        "url": "http://ftp.uni-kl.de/pub/linux/manjaro/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
+        "country": "Germany",
         "url": "https://mirrors.xtom.de/manjaro/",
         "protocols": [
             "https",
