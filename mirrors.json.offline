@@ -96,6 +96,14 @@
         ]
     },
     {
+        "country": "Finland",
+        "url": "https://manjaro.kyberorg.fi/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "France",
         "url": "http://kibo.remi.lu/",
         "protocols": [
