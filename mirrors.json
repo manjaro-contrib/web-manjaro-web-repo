@@ -258,14 +258,6 @@
         ]
     },
     {
-        "country": "Finland",
-        "url": "https://manjaro.kyberorg.fi/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
         "country": "France",
         "url": "http://ftp.free.org/mirrors/repo.manjaro.org/repos/",
         "protocols": [
