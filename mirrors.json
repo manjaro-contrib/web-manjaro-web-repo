@@ -243,6 +243,14 @@
         ]
     },
     {
+        "country": "Colombia",
+        "url": "https://mirrors.atlas.net.co/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Denmark",
         "url": "https://mirrors.dotsrc.org/manjaro/",
         "protocols": [
