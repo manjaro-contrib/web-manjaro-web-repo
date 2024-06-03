@@ -585,14 +585,6 @@
         ]
     },
     {
-        "country": "Netherlands",
-        "url": "https://mirror.erickochen.nl/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
         "country": "New_Zealand",
         "url": "http://manjaro.mirrors.theom.nz/manjaro/",
         "protocols": [
