@@ -586,13 +586,6 @@
     },
     {
         "country": "New_Zealand",
-        "url": "http://manjaro.mirrors.theom.nz/manjaro/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
-        "country": "New_Zealand",
         "url": "https://mirror.2degrees.nz/manjaro/",
         "protocols": [
             "https",

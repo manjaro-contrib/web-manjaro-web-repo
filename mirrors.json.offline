@@ -210,6 +210,13 @@
         ]
     },
     {
+        "country": "New_Zealand",
+        "url": "http://manjaro.mirrors.theom.nz/manjaro/",
+        "protocols": [
+            "http"
+        ]
+    },
+    {
         "country": "Portugal",
         "url": "http://manjaro.barata.pt/",
         "protocols": [
