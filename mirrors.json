@@ -804,6 +804,14 @@
         ]
     },
     {
+        "country": "Ukraine",
+        "url": "https://mirror.hostiko.network/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "United_Kingdom",
         "url": "https://www.mirrorservice.org/sites/repo.manjaro.org/repos/",
         "protocols": [
