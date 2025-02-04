@@ -698,6 +698,14 @@
         ]
     },
     {
+        "country": "Slovenia",
+        "url": "https://mirror.komelt.dev/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Spain",
         "url": "https://mirror.raiolanetworks.com/manjaro/",
         "protocols": [
