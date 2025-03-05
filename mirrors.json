@@ -812,14 +812,6 @@
     },
     {
         "country": "Ukraine",
-        "url": "https://fastmirror.pp.ua/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
-        "country": "Ukraine",
         "url": "https://mirror.hostiko.network/manjaro/",
         "protocols": [
             "https",
