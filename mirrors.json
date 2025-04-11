@@ -812,6 +812,14 @@
     },
     {
         "country": "Ukraine",
+        "url": "distrohub.kyiv.ua/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "Ukraine",
         "url": "https://mirror.hostiko.network/manjaro/",
         "protocols": [
             "https",
