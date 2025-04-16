@@ -812,7 +812,7 @@
     },
     {
         "country": "Ukraine",
-        "url": "distrohub.kyiv.ua/manjaro/",
+        "url": "https://distrohub.kyiv.ua/manjaro/",
         "protocols": [
             "https",
             "http"
