@@ -67,7 +67,7 @@
     },
     {
         "country": "Belgium",
-        "url": "http://mirror.futureweb.be/manjaro/",
+        "url": "https://mirror.futureweb.be/manjaro/",
         "protocols": [
             "https",
             "http"
