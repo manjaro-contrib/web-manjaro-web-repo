@@ -370,10 +370,11 @@
     },
     {
         "country": "Germany",
-        "url": "http://ftp.tu-chemnitz.de/pub/linux/manjaro/",
+        "url": "https://ftp.tu-chemnitz.de/pub/linux/manjaro/",
         "protocols": [
-            "ftp",
-            "http"
+            "https",
+            "http",
+            "ftp"
         ]
     },
     {
