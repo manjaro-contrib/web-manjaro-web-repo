@@ -58,6 +58,14 @@ Outdated mirrors:
         ]
     },
     {
+        "country": "Estonia",
+        "url": "https://mirrors.xtom.ee/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "France",
         "url": "https://mirror.oldsql.cc/manjaro/",
         "protocols": [

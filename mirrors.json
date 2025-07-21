@@ -4,7 +4,7 @@
         "url": "https://mirror.aarnet.edu.au/pub/manjaro/",
         "protocols": [
             "https",
-            "http"            
+            "http"           
         ]
     },
     {
@@ -44,8 +44,7 @@
         "country": "Bangladesh",
         "url": "https://bd.mirror.vanehost.com/Manjaro/",
         "protocols": [
-            "https",
-            "http"
+            "https"
         ]
     },
     {
@@ -77,21 +76,24 @@
         "country": "Brazil",
         "url": "https://manjaro.c3sl.ufpr.br/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
         "country": "Brazil",
         "url": "https://mirror.ufam.edu.br/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
         "country": "Brazil",
         "url": "https://linorg.usp.br/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     }, 
     {
@@ -106,22 +108,23 @@
         "url": "https://mirror.telepoint.bg/manjaro/",
         "protocols": [
             "https",
-            "http",
-            "ftps"
+            "http"
         ]
     },
     {
         "country": "Bulgaria",
         "url": "https://manjaro.ipacct.com/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
         "country": "Canada",
         "url": "https://mirror.csclub.uwaterloo.ca/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
@@ -144,7 +147,8 @@
         "country": "Chile",
         "url": "https://mirror.ufro.cl/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
@@ -167,14 +171,16 @@
         "country": "China",
         "url": "https://mirrors.aliyun.com/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
         "country": "China",
         "url": "https://mirrors.ustc.edu.cn/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
@@ -211,7 +217,8 @@
         "country": "Costa_Rica",
         "url": "https://mirrors.ucr.ac.cr/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
@@ -249,20 +256,12 @@
         "country": "Colombia",
         "url": "https://mirrors.atlas.net.co/manjaro/",
         "protocols": [
-            "https",
-            "http"
+            "https"
         ]
     },
     {
         "country": "Denmark",
         "url": "https://mirrors.dotsrc.org/manjaro/",
-        "protocols": [
-            "https"
-        ]
-    },
-    {
-        "country": "Estonia",
-        "url": "https://mirrors.xtom.ee/manjaro/",
         "protocols": [
             "https",
             "http"
@@ -280,7 +279,6 @@
         "url": "https://ftp.free.org/mirrors/repo.manjaro.org/repos/",
         "protocols": [
             "https",
-            "http",
             "http"
         ]
     },
@@ -288,7 +286,8 @@
         "country": "France",
         "url": "https://mirror.ibakerserver.pt/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
@@ -315,18 +314,11 @@
         ]
     },
     {
-        "country": "Georgia",
-        "url": "https://repos.silknet.com/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
         "country": "Germany",
         "url": "https://mirror.alpix.eu/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
@@ -335,15 +327,7 @@
         "protocols": [
             "http"
         ]
-    },
-    {
-        "country": "Germany",
-        "url": "https://mirrors.xtom.de/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },  
+    }, 
     {
         "country": "Germany",
         "url": "https://ftp.gwdg.de/pub/linux/manjaro/",
@@ -357,15 +341,17 @@
         "country": "Germany",
         "url": "https://mirror.23m.com/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
         "country": "Germany",
         "url": "https://ftp.halifax.rwth-aachen.de/manjaro/",
         "protocols": [
-            "ftp",
-            "https"
+            "https",
+            "http",
+            "ftp"
         ]
     },
     {
@@ -381,21 +367,16 @@
         "country": "Germany",
         "url": "https://mirror.netcologne.de/manjaro/",
         "protocols": [
-            "https"
-        ]
-    },
-    {
-        "country": "Germany",
-        "url": "https://mirror.seahost.de/manjaro/",
-        "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
         "country": "Germany",
         "url": "https://ftp.rz.tu-bs.de/pub/mirror/manjaro.org/repos/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
@@ -431,7 +412,7 @@
         "country": "Greece",
         "url": "https://fosszone.csd.auth.gr/manjaro/",
         "protocols": [
-            "http",
+            "https",
             "https"
         ]
     },
@@ -439,9 +420,9 @@
         "country": "Greece",
         "url": "https://ftp.cc.uoc.gr/mirrors/linux/manjaro/",
         "protocols": [
-            "ftp",
+            "https",
             "http",
-            "https"
+            "ftp"
         ]
     },
     {
@@ -457,7 +438,6 @@
         "url": "https://mirror.mobinhost.com/manjaro/",
         "protocols": [
             "https",
-            "http",
             "ftp"
         ]
     },
@@ -470,8 +450,8 @@
         ]
     },
     {
-        "country": "Iran",
-        "url": "https://mirror.bardia.tech/manjaro/",
+        "country": "Italy",
+        "url": "https://manjaro.mirror.garr.it/manjaro/",
         "protocols": [
             "https",
             "http"
@@ -479,23 +459,18 @@
     },
     {
         "country": "Italy",
-        "url": "https://manjaro.mirror.garr.it/manjaro/",
-        "protocols": [
-            "https"
-        ]
-    },
-    {
-        "country": "Italy",
         "url": "https://ba.mirror.garr.it/mirrors/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
         "country": "Italy",
         "url": "https://ct.mirror.garr.it/mirrors/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
@@ -507,17 +482,11 @@
         ]
     },
     {
-        "country": "India",
-        "url": "https://mirror.albony.xyz/manjaro/",
-        "protocols": [
-            "https"
-        ]
-    },
-    {
         "country": "Indonesia",
         "url": "https://kartolo.sby.datautama.net.id/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
@@ -533,6 +502,7 @@
         "url": "https://ftp.riken.jp/Linux/manjaro/",
         "protocols": [
             "https",
+            "http",
             "ftp"
         ]
     },
@@ -548,15 +518,15 @@
         "country": "Japan",
         "url": "https://ftp.tsukuba.wide.ad.jp/Linux/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
         "country": "Japan",
         "url": "https://mirror.phoepsilonix.love/manjaro/",
         "protocols": [
-            "https",
-            "http"
+            "https"
         ]
     },
     {
@@ -571,29 +541,21 @@
         "country": "Netherlands",
         "url": "https://manjaro.mirror.wearetriple.com/",
         "protocols": [
-            "http",
-            "https"
+            "https",
+            "http"
         ]
     },
     {
         "country": "Netherlands",
         "url": "https://manjaro.mirrors.lavatech.top/",
         "protocols": [
-            "http",
-            "https"
+            "https",
+            "http"
         ]
     },
     {
         "country": "Netherlands",
         "url": "https://ftp.nluug.nl/pub/os/Linux/distr/manjaro/",
-        "protocols": [
-            "ftp",
-            "https"
-        ]
-    },
-    {
-        "country": "Netherlands",
-        "url": "https://ftp.snt.utwente.nl/pub/linux/manjaro/",
         "protocols": [
             "https",
             "ftp"
@@ -601,9 +563,19 @@
     },
     {
         "country": "Netherlands",
+        "url": "https://ftp.snt.utwente.nl/pub/linux/manjaro/",
+        "protocols": [
+            "https",
+            "http",
+            "ftp"
+        ]
+    },
+    {
+        "country": "Netherlands",
         "url": "https://mirror.koddos.net/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
@@ -636,7 +608,7 @@
         "url": "https://mirror.leitecastro.com/manjaro/",
         "protocols": [
             "https",
-            "https"
+            "http"
         ]
     },
     {
@@ -651,7 +623,8 @@
         "country": "Russia",
         "url": "https://mirror.yandex.ru/mirrors/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
@@ -696,22 +669,15 @@
         "country": "South_Africa",
         "url": "https://manjaro.mirror.ac.za/",
         "protocols": [
-            "https"
-        ]
-    },
-    {
-        "country": "South_Korea",
-        "url": "https://mirror.funami.tech/manjaro/",
-        "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
         "country": "Slovenia",
         "url": "https://mirror.komelt.dev/manjaro/",
         "protocols": [
-            "https",
-            "http"
+            "https"
         ]
     },
     {
@@ -742,15 +708,17 @@
         "country": "Sweden",
         "url": "https://ftp.lysator.liu.se/pub/manjaro/",
         "protocols": [
-            "ftp",
-            "https"
+            "https",
+            "http",
+            "ftp"
         ]
     },
     {
         "country": "Sweden",
         "url": "https://mirror.zetup.net/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
@@ -854,8 +822,7 @@
         "country": "United_Kingdom",
         "url": "https://mirror.vinehost.net/manjaro/",
         "protocols": [
-            "https",
-            "http"
+            "https"
         ]
     },
     {
@@ -870,7 +837,8 @@
         "country": "United_States",
         "url": "https://mirror.fcix.net/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
@@ -917,14 +885,16 @@
         "country": "United_States",
         "url": "https://mirrors.ocf.berkeley.edu/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
         "country": "United_States",
         "url": "https://mirror.math.princeton.edu/pub/manjaro/",
         "protocols": [
-            "https"
+            "https",
+            "http"
         ]
     },
     {
@@ -954,14 +924,6 @@
     {
         "country": "United_States",
         "url": "https://coresite.mm.fcix.net/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
-        "country": "United_States",
-        "url": "https://ridgewireless.mm.fcix.net/manjaro/",
         "protocols": [
             "https",
             "http"
@@ -1026,8 +988,7 @@
         "country": "Uruguay",
         "url": "https://manjaro.repo.cure.edu.uy/",
         "protocols": [
-            "https",
-            "http"
+            "https"
         ]
     },
     {
@@ -1042,8 +1003,7 @@
         "country": "Vietnam",
         "url": "https://mirror.meowsmp.net/manjaro",
         "protocols": [
-          "https",
-          "http"
+          "https"
         ]
       }
 ]
