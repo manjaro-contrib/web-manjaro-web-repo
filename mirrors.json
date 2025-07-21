@@ -295,6 +295,14 @@
         ]
     },
     {
+        "country": "France",
+        "url": "https://manjaro.syxpi.fr/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Georgia",
         "url": "http://manjaro.grena.ge/",
         "protocols": [
