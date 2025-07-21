@@ -387,9 +387,9 @@
     },
     {
         "country": "Germany",
-        "url": "http://ftp.rz.tu-bs.de/pub/mirror/manjaro.org/repos/",
+        "url": "https://ftp.rz.tu-bs.de/pub/mirror/manjaro.org/repos/",
         "protocols": [
-            "http"
+            "https"
         ]
     },
     {
