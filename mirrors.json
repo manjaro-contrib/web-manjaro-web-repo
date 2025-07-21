@@ -440,6 +440,15 @@
     },
     {
         "country": "Iran",
+        "url": "https://mirror.mobinhost.com/manjaro/",
+        "protocols": [
+            "https",
+            "http",
+            "ftp"
+        ]
+    },
+    {
+        "country": "Iran",
         "url": "https://repo.iut.ac.ir/repo/manjaro/",
         "protocols": [
             "https",
