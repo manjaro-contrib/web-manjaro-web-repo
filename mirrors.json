@@ -34,8 +34,9 @@
     },
     {
         "country": "Bangladesh",
-        "url": "http://mirror.xeonbd.com/manjaro/",
+        "url": "https://mirror.xeonbd.com/manjaro/",
         "protocols": [
+            "https",
             "http"
         ]
     },
