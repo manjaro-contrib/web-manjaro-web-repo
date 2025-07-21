@@ -687,9 +687,9 @@
     },
     {
         "country": "South_Africa",
-        "url": "http://mirror.is.co.za/mirrors/manjaro.org/",
+        "url": "https://mirror.dimensiondata.com/mirrors/manjaro.org/",
         "protocols": [
-            "http"
+            "https"
         ]
     },
     {
