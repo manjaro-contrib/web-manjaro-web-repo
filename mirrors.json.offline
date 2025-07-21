@@ -210,6 +210,13 @@
         ]
     },
     {
+        "country": "Norway",
+        "url": "https://mirror.terrahost.no/linux/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
         "country": "New_Zealand",
         "url": "http://manjaro.mirrors.theom.nz/manjaro/",
         "protocols": [

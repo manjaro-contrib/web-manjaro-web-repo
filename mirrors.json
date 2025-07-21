@@ -623,13 +623,6 @@
         ]
     },
     {
-        "country": "Norway",
-        "url": "http://mirror.terrahost.no/linux/manjaro/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
         "country": "Poland",
         "url": "https://ftp.psnc.pl/linux/manjaro/",
         "protocols": [
