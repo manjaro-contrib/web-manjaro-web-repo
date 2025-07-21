@@ -694,9 +694,9 @@
     },
     {
         "country": "South_Africa",
-        "url": "http://manjaro.mirror.ac.za/",
+        "url": "https://manjaro.mirror.ac.za/",
         "protocols": [
-            "http"
+            "https"
         ]
     },
     {
