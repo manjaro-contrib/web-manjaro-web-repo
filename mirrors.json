@@ -50,8 +50,9 @@
     },
     {
         "country": "Belarus",
-        "url": "http://mirror.datacenter.by/pub/mirrors/manjaro/",
+        "url": "https://mirror.datacenter.by/pub/mirrors/manjaro/",
         "protocols": [
+            "https",
             "http"
         ]
     },
