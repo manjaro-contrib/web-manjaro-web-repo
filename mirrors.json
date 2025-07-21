@@ -633,13 +633,6 @@
     },        
     {
         "country": "Portugal",
-        "url": "http://ftp.dei.uc.pt/pub/linux/manjaro/",
-        "protocols": [
-            "http"
-        ]
-    },
-    {
-        "country": "Portugal",
         "url": "https://mirror.leitecastro.com/manjaro/",
         "protocols": [
             "https",
