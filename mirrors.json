@@ -58,8 +58,9 @@
     },
     {
         "country": "Belgium",
-        "url": "http://ftp.belnet.be/mirrors/manjaro/repos/",
+        "url": "https://ftp.belnet.be/mirrors/manjaro/repos/",
         "protocols": [
+            "https",
             "http",
             "ftp"
         ]
