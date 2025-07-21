@@ -308,8 +308,9 @@
     },
     {
         "country": "Georgia",
-        "url": "http://manjaro.grena.ge/",
+        "url": "https://manjaro.grena.ge/",
         "protocols": [
+            "https",
             "http"
         ]
     },
