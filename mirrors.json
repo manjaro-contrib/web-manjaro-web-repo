@@ -593,10 +593,10 @@
     },
     {
         "country": "Netherlands",
-        "url": "http://ftp.snt.utwente.nl/pub/linux/manjaro/",
+        "url": "https://ftp.snt.utwente.nl/pub/linux/manjaro/",
         "protocols": [
-            "ftp",
-            "http"
+            "https",
+            "ftp"
         ]
     },
     {
