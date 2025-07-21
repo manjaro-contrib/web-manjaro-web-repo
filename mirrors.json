@@ -804,10 +804,10 @@
     },
     {
         "country": "Taiwan",
-        "url": "http://mirror.archlinux.tw/Manjaro/",
+        "url": "https://mirror.archlinux.tw/Manjaro/",
         "protocols": [
-            "http",
-            "https"
+            "https",
+            "http"
         ]
     },
     {
