@@ -515,9 +515,9 @@
     },
     {
         "country": "Indonesia",
-        "url": "http://kartolo.sby.datautama.net.id/manjaro/",
+        "url": "https://kartolo.sby.datautama.net.id/manjaro/",
         "protocols": [
-            "http"
+            "https"
         ]
     },
     {
