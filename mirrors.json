@@ -796,8 +796,9 @@
   },    
     {
         "country": "Taiwan",
-        "url": "http://free.nchc.org.tw/manjaro/",
+        "url": "https://free.nchc.org.tw/manjaro/",
         "protocols": [
+            "https",
             "http"
         ]
     },
