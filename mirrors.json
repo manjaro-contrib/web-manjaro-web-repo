@@ -845,9 +845,9 @@
     },
     {
         "country": "United_Kingdom",
-        "url": "http://manjaro.mirrors.uk2.net/",
+        "url": "https://manjaro.mirrors.uk2.net/",
         "protocols": [
-            "http"
+            "https"
         ]
     },
     {
