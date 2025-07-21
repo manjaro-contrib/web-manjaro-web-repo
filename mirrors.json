@@ -546,9 +546,9 @@
     },
     {
         "country": "Japan",
-        "url": "http://ftp.tsukuba.wide.ad.jp/Linux/manjaro/",
+        "url": "https://ftp.tsukuba.wide.ad.jp/Linux/manjaro/",
         "protocols": [
-            "http"
+            "https"
         ]
     },
     {
