@@ -331,6 +331,14 @@
         ]
     },    
     {
+        "country": "United_States",
+        "url": "http://uvermont.mm.fcix.net/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Vietnam",
         "url": "https://manjaro.chocomint.co/manjaro/",
         "protocols": [

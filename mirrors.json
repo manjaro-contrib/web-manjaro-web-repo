@@ -907,14 +907,6 @@
     },
     {
         "country": "United_States",
-        "url": "http://uvermont.mm.fcix.net/manjaro/",
-        "protocols": [
-            "https",
-            "http"
-        ]
-    },
-    {
-        "country": "United_States",
         "url": "https://repo.ialab.dsu.edu/manjaro/",
         "protocols": [
             "https",
