@@ -1001,7 +1001,7 @@
     },
     {
         "country": "Vietnam",
-        "url": "https://mirror.meowsmp.net/manjaro",
+        "url": "https://mirror.meowsmp.net/manjaro/",
         "protocols": [
           "https"
         ]
