@@ -20,6 +20,13 @@
             "https",
             "http"
         ]
+    },
+    {
+        "country": "Bulgaria",
+        "url": "https://mirrors.netix.net/manjaro/",
+        "protocols": [
+            "https"
+        ]
     },    
     {
         "country": "Bulgaria",
