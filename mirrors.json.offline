@@ -1,5 +1,21 @@
 [
     {
+        "country": "Ukraine",
+        "url": "https://mirror.hostiko.network/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "Taiwan",
+        "url": "https://free.nchc.org.tw/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Australia",
         "url": "http://mirror.ventraip.net.au/Manjaro/",
         "protocols": [
