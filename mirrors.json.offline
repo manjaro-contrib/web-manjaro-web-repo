@@ -1,5 +1,13 @@
 [
     {
+        "country": "Germany",
+        "url": "https://mirror.diyarciftci.xyz/manjaro/",
+        "protocols": [
+            "https", 
+            "http"
+            ]
+    },
+    {
         "country": "Australia",
         "url": "http://mirror.ventraip.net.au/Manjaro/",
         "protocols": [
