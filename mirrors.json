@@ -316,14 +316,6 @@
     },
     {
         "country": "Germany",
-        "url": "https://mirror.diyarciftci.xyz/manjaro/",
-        "protocols": [
-            "https", 
-            "http"
-            ]
-    },
-    {
-        "country": "Germany",
         "url": "https://mirror.alpix.eu/manjaro/",
         "protocols": [
             "https",
