@@ -285,7 +285,7 @@
     },
     {
         "country": "France",
-        "url": "https://mirror.ibakerserver.pt/manjaro/",
+        "url": "https://mirror.bakertelekom.fr/manjaro/",
         "protocols": [
             "https",
             "http"
