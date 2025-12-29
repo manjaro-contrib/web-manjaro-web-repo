@@ -492,6 +492,14 @@
     },
     {
         "country": "Japan",
+        "url": "https://ftp.yz.yamagata-u.ac.jp/pub/linux/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "Japan",
         "url": "https://ftp.riken.jp/Linux/manjaro/",
         "protocols": [
             "https",
