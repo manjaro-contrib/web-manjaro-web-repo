@@ -316,7 +316,7 @@
     },
     {
         "country": "Germany",
-        "url": "https://rabisu.com/mirrors/manjaro/",
+        "url": "https://mirror.rabisu.com/mirrors/manjaro/",
         "protocols": [
             "https"
         ]
