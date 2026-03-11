@@ -316,6 +316,13 @@
     },
     {
         "country": "Germany",
+        "url": "https://rabisu.com/mirrors/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+        {
+        "country": "Germany",
         "url": "https://mirror.alpix.eu/manjaro/",
         "protocols": [
             "https",
