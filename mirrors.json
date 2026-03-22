@@ -388,13 +388,6 @@
         ]
     },
     {
-        "country": "Germany",
-        "url": "https://manjaro.kurdy.org/",
-        "protocols": [
-            "https"
-        ]
-    },
-    {
         "country": "Global",
         "url": "https://mirrors.manjaro.org/repo/",
         "protocols": [
