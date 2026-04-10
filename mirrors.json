@@ -983,12 +983,5 @@
             "https",
             "http"
         ]
-    },
-    {
-        "country": "Vietnam",
-        "url": "https://mirror.meowsmp.net/manjaro/",
-        "protocols": [
-          "https"
-        ]
-      }
+    }
 ]
