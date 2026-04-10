@@ -34,6 +34,10 @@ class Mirror():
     def read_state_file(self, hashes):
         """Read infos from state file"""
         if self.state_file:
+            date = self.state_file.split("date=", 1) 
+            if len(date) < 2: 
+                self.logger.error(f"{self.url}: state file is not valid", "date not found") 
+                return 
             mirror_date = self.state_file.split("date=", 1)[1]
             mirror_date = datetime.datetime.strptime(mirror_date, "%Y-%m-%dT%H:%M:%SZ")
             seconds = (datetime.datetime.utcnow() - mirror_date).total_seconds()
