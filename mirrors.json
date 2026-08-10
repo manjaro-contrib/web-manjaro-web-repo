@@ -33,6 +33,14 @@
         ]
     },
     {
+        "country": "Azerbbaijan",
+        "url": "https://mirror.ourhost.az/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Bangladesh",
         "url": "https://mirror.xeonbd.com/manjaro/",
         "protocols": [
