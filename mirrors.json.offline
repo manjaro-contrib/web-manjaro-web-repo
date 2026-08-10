@@ -30,6 +30,21 @@
         ]
     },
     {
+        "country": "China",
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/manjaro/",
+        "protocols": [
+            "https"
+        ]
+    },
+    {
+        "country": "Colombia",
+        "url": "https://edgeuno-bog2.mm.fcix.net/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "Indonesia",
         "url": "https://mirror.deace.id/manjaro/",
         "protocols": [
@@ -147,6 +162,13 @@
         "protocols": [
             "https",
             "http"
+        ]
+    },
+    {
+        "country": "France",
+        "url": "https://manjaro.ynh.ovh/",
+        "protocols": [
+            "https"
         ]
     },
     {
@@ -334,6 +356,22 @@
     },
     {
         "country": "Netherlands",
+        "url": "https://mirror.koddos.net/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "Netherlands",
+        "url": "https://mirror.bouwhuis.network/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "Netherlands",
         "url": "https://mirror.erickochen.nl/manjaro/",
         "protocols": [
             "http",
@@ -477,6 +515,13 @@
         "url": "http://manjaro.astra.in.ua/",
         "protocols": [
             "http",
+            "https"
+        ]
+    },
+    {
+        "country": "United_Kingdom",
+        "url": "https://manjaro.mirrors.uk2.net/",
+        "protocols": [
             "https"
         ]
     },

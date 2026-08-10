@@ -38,6 +38,22 @@ Outdated mirrors:
         ]
     },
     {
+        "country": "Chile",
+        "url": "https://mirror.ufro.cl/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
+        "country": "China",
+        "url": "https://mirrors.jlu.edu.cn/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "China",
         "url": "https://mirrors.huaweicloud.com/manjaro/",
         "protocols": [
@@ -127,6 +143,14 @@ Outdated mirrors:
             "http",
             "ftp"
         ]
+    },
+    {
+        "country": "New_Zealand",
+        "url": "https://mirror.2degrees.nz/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
     },    
     {
         "country": "Poland",
@@ -141,6 +165,13 @@ Outdated mirrors:
         "protocols": [
             "http",
             "ftp"
+        ]
+    },
+    {
+        "country": "Singapore",
+        "url": "http://ossmirror.mycloud.services/os/linux/manjaro/",
+        "protocols": [
+            "http"
         ]
     },
     {
