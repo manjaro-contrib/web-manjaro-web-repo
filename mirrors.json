@@ -17,15 +17,6 @@
     },
     {
         "country": "Austria",
-        "url": "https://mirror.easyname.at/manjaro/",
-        "protocols": [
-            "https",
-            "http",
-            "ftp"
-        ]
-    },
-    {
-        "country": "Austria",
         "url": "https://mirror.alwyzon.net/manjaro/",
         "protocols": [
             "https",

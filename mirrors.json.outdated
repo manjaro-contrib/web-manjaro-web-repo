@@ -12,6 +12,15 @@ Outdated mirrors:
         "protocols": [
             "http"
         ]
+    },
+    {
+        "country": "Austria",
+        "url": "https://mirror.easyname.at/manjaro/",
+        "protocols": [
+            "https",
+            "http",
+            "ftp"
+        ]
     },   
     {
         "country": "Belgium",
