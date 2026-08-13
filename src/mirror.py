@@ -9,7 +9,7 @@ from logger import Logger
 from conf import BRANCHES, UA
 
 
-class Mirror():
+class Mirror:
     """Handle all mirror's properties"""
 
     def __init__(self, mirror):
@@ -25,8 +25,8 @@ class Mirror():
         """Fetch state file"""
         try:
             with urlopen(
-                Request(f"{self.url}state", headers={'User-Agent': UA}), timeout=10
-                ) as state_file:
+                    Request(f"{self.url}state", headers={'User-Agent': UA}), timeout=10
+            ) as state_file:
                 self.state_file = state_file.read().decode("utf-8")
         except (URLError, socket.timeout, HTTPError) as e:
             self.logger.error(f"{self.url}: can't read state file", e, False)
@@ -34,10 +34,18 @@ class Mirror():
     def read_state_file(self, hashes):
         """Read infos from state file"""
         if self.state_file:
-            date = self.state_file.split("date=", 1) 
-            if len(date) < 2: 
-                self.logger.error(f"{self.url}: state file is not valid", "date not found") 
-                return 
+            try:
+                date = self.state_file.split("date=", 1)
+                if len(date) < 2:
+                    self.logger.error(f"{self.url}: state file is not valid", "date not found")
+                    self.last_sync = -1
+                    self.branches = [-1, -1, -1]
+                    return
+            except:
+                self.logger.error(f"{self.url}: state file is not valid")
+                self.last_sync = -1
+                self.branches = [-1, -1, -1]
+                return
             mirror_date = self.state_file.split("date=", 1)[1]
             mirror_date = datetime.datetime.strptime(mirror_date, "%Y-%m-%dT%H:%M:%SZ")
             seconds = (datetime.datetime.utcnow() - mirror_date).total_seconds()

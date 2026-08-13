@@ -6,7 +6,7 @@ import os
 from conf import ROOT_FOLDER, LOGS_FOLDER
 
 
-class Logger():
+class Logger:
     """Handle logs"""
 
     def __init__(self):
