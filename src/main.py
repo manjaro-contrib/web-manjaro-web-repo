@@ -8,10 +8,10 @@ from collections import OrderedDict
 from mirror import Mirror
 from builder import Builder
 from logger import Logger
-from conf import MIRRORS_URL, BRANCHES, UA
+from conf import MIRRORS_URL, BRANCHES, UA, REPO_ROOT
 
 
-class StatusChecker():
+class StatusChecker:
     """Launch of actions"""
 
     def __init__(self):
@@ -37,7 +37,7 @@ class StatusChecker():
         """Get last hashes"""
         for branch in BRANCHES:
             try:
-                with open("/var/repo/repo/" + branch + "/state", "r") as branch_state:
+                with open(REPO_ROOT + branch + "/state", "r") as branch_state:
                     content = branch_state.read()
                     pos = content.find("state=")
                     if pos >= 0:
@@ -66,6 +66,7 @@ class StatusChecker():
             }
             self.states.append(mirror_status)
         self.logger.info("{} mirror(s) added".format(len(self.states)))
+
 
 if __name__ == "__main__":
     status_checker = StatusChecker()

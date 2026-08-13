@@ -8,7 +8,7 @@ from logger import Logger
 from conf import BRANCHES, ROOT_FOLDER, OUTPUT_FOLDER
 
 
-class Builder():
+class Builder:
     """Handle generation of output files"""
 
     def __init__(self, states, countries):
@@ -20,7 +20,7 @@ class Builder():
         self.html_path = ROOT_FOLDER + OUTPUT_FOLDER + "index.html"
 
     def check_folder(self):
-        """Check if output folder exists"""
+        """Check if the output folder exists"""
         try:
             if not os.path.isdir(ROOT_FOLDER + OUTPUT_FOLDER):
                 os.makedirs(ROOT_FOLDER + OUTPUT_FOLDER)
@@ -54,10 +54,11 @@ class Builder():
             with open(self.html_path, "w") as index_file:
                 # Set date
                 header = header.replace("$DATE", datetime.datetime.now().strftime("%Y-%m-%d %H:%M"))
-                # Fill countries dropdown
+                # Fill country dropdown
                 countries_options = ""
                 for country in self.countries:
-                    countries_options += "<option value=\"{}\">{}</option>".format(country.lower(), country.replace("_", " "))
+                    countries_options += "<option value=\"{}\">{}</option>".format(country.lower(),
+                                                                                   country.replace("_", " "))
                 header = header.replace("$COUNTRIES", countries_options)
                 html_output = header
                 # For each mirror
@@ -70,12 +71,13 @@ class Builder():
                     else:
                         color = "red"
                     html_output += "<tr class=\"{}\">".format(color)
-                    # Pretiffy URL
+                    # Prettify URL
                     displayed_url = state["url"].split("//")[1][:-1]
                     if len(state["url"]) > 50:
                         displayed_url = displayed_url[:47] + "..."
-                    html_output += '<td><a href="{url}" data-toggle="tooltip" data-placement="top" title="{url}">{durl}</a></td>'.format(url=state["url"], durl=displayed_url)
-                    # Pretiffy country
+                    html_output += '<td><a href="{url}" data-toggle="tooltip" data-placement="top" title="{url}">{durl}</a></td>'.format(
+                        url=state["url"], durl=displayed_url)
+                    # Prettify country
                     html_output += "<td>{}</td>".format(state["country"].replace("_", " "))
                     # Set list of protocols
                     html_output += "<td>{}</td>".format(", ".join(state["protocols"]))
