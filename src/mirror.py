@@ -37,12 +37,12 @@ class Mirror:
             try:
                 date = self.state_file.split("date=", 1)
                 if len(date) < 2:
-                    self.logger.error(f"{self.url}: state file is not valid", "date not found")
+                    self.logger.error(f"{self.url}: state file is not valid", "date not found", False)
                     self.last_sync = -1
                     self.branches = [-1, -1, -1]
                     return
             except:
-                self.logger.error(f"{self.url}: state file is not valid")
+                self.logger.error(f"{self.url}: state file is not valid", "", False)
                 self.last_sync = -1
                 self.branches = [-1, -1, -1]
                 return
