@@ -253,6 +253,14 @@
         ]
     },
     {
+        "country": "Dominican_Republic",
+        "url": "https://mirror.hiesoft.net/manjaro/",
+        "protocols": [
+            "https",
+            "http"
+        ]
+    },
+    {
         "country": "France",
         "url": "https://ftp.free.org/mirrors/repo.manjaro.org/repos/",
         "protocols": [
