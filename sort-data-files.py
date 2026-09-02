@@ -1,7 +1,7 @@
 import json
 from collections import defaultdict
 
-files = ["mirrors.json", "mirrors.offline.json", "mirrors.outdated.json"]
+files = ["mirrors.json", "mirrors.outdated.json"]
 
 
 def sort_key(mirror):
