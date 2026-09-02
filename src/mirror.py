@@ -52,7 +52,7 @@ class Mirror:
                 return
             mirror_date = self.state_file.split("date=", 1)[1]
             mirror_date = datetime.datetime.strptime(mirror_date, "%Y-%m-%dT%H:%M:%SZ")
-            seconds = (datetime.datetime.now(datetime.UTC) - mirror_date).total_seconds()
+            seconds = (datetime.datetime.utcnow() - mirror_date).total_seconds()
             minutes = seconds // 60
             elapsed_hours = str(int(minutes // 60)).zfill(2)
             elapsed_minutes = str(int(minutes % 60)).zfill(2)
