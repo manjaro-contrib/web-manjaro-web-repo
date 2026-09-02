@@ -37,18 +37,22 @@ class Mirror:
             try:
                 date = self.state_file.split("date=", 1)
                 if len(date) < 2:
+                    # if the logging.error is called with two arguments,
+                    # the third default is default True and this will terminate the program
                     self.logger.error(f"{self.url}: state file is not valid", "date not found", False)
                     self.last_sync = -1
                     self.branches = [-1, -1, -1]
                     return
-            except:
-                self.logger.error(f"{self.url}: state file is not valid", False)
+            except Exception as e:
+                # if the logging.error is called with two arguments,
+                # the third default is default True and this will terminate the program
+                self.logger.error(f"{self.url}: cannot a", e, False)
                 self.last_sync = -1
                 self.branches = [-1, -1, -1]
                 return
             mirror_date = self.state_file.split("date=", 1)[1]
             mirror_date = datetime.datetime.strptime(mirror_date, "%Y-%m-%dT%H:%M:%SZ")
-            seconds = (datetime.datetime.utcnow() - mirror_date).total_seconds()
+            seconds = (datetime.datetime.now(datetime.UTC) - mirror_date).total_seconds()
             minutes = seconds // 60
             elapsed_hours = str(int(minutes // 60)).zfill(2)
             elapsed_minutes = str(int(minutes % 60)).zfill(2)
@@ -61,6 +65,8 @@ class Mirror:
                         branch_hash = state_file.split("state=", 1)[1].split('\n')[0]
                         self.branches.append(int(branch_hash == hashes[i]))
                 except (URLError, socket.timeout, HTTPError) as e:
+                    # if the logging.error is called with two arguments,
+                    # the third default is default True and this will terminate the program
                     self.logger.error(f"{url}: can't read hash from state file", e, False)
         if not self.last_sync:
             self.last_sync = -1
