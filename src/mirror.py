@@ -46,7 +46,7 @@ class Mirror:
             except Exception as e:
                 # if the logging.error is called with two arguments,
                 # the third default is default True and this will terminate the program
-                self.logger.error(f"{self.url}: cannot a", e, False)
+                self.logger.error(f"{self.url}: cannot contact mirror", "", False)
                 self.last_sync = -1
                 self.branches = [-1, -1, -1]
                 return
