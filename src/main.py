@@ -13,10 +13,9 @@ import logger
 from mirror import Mirror
 from builder import Builder
 from logger import Logger
-from conf import MIRRORS_URL, BRANCHES, HEADERS, REPO_ROOT
+from conf import MIRRORS_URL, BRANCHES, HEADERS, REPO_ROOT, GLOBAL_TIMEOUT
 
-socket.setdefaulttimeout(20)
-
+socket.setdefaulttimeout(GLOBAL_TIMEOUT)
 
 def acquire_lock(lock_path="/tmp/manjaro-web-repo.lock"):
     lock_file = open(lock_path, "w")
@@ -45,7 +44,7 @@ class StatusChecker:
         req = Request(MIRRORS_URL)
         req.headers = HEADERS
         try:
-            with urlopen(req, timeout=10) as mirrors_file:
+            with urlopen(req) as mirrors_file:
                 self.mirrors = json.loads(mirrors_file.read().decode("utf-8"),
                                           object_pairs_hook=OrderedDict)
         except (HTTPError, URLError, socket.timeout) as e:

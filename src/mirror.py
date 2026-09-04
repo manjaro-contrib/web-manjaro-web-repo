@@ -7,8 +7,9 @@ from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 
 from logger import Logger
-from conf import BRANCHES, HEADERS
+from conf import BRANCHES, HEADERS, GLOBAL_TIMEOUT
 
+socket.setdefaulttimeout(GLOBAL_TIMEOUT)
 
 class Mirror:
     """Handle all mirror's properties"""
@@ -49,7 +50,7 @@ class Mirror:
         """Fetch state file with granular error logging"""
         try:
             req = Request(f"{self.url}state", headers=HEADERS)
-            with urlopen(req, timeout=10) as state_file:
+            with urlopen(req) as state_file:
                 self.state_file = state_file.read().decode("utf-8")
         except (URLError, socket.timeout, TimeoutError, Exception) as e:
             error_details = self._format_network_error(e)
@@ -94,7 +95,7 @@ class Mirror:
             url = f"{self.url}{branch}/state"
             req = Request(url, headers=HEADERS)
             try:
-                with urlopen(req, timeout=10) as state_file:
+                with urlopen(req) as state_file:
                     state_content = state_file.read().decode("utf-8")
                     branch_hash = state_content.split("state=", 1)[1].split("\n")[0]
                     self.branches.append(int(branch_hash == hashes[i]))
