@@ -1,14 +1,32 @@
 #!/usr/bin/env python3
-
+import sys
+import fcntl
 import json
 import socket
-import urllib
+import datetime
+from urllib.request import Request, urlopen
+from urllib.error import URLError, HTTPError
 
 from collections import OrderedDict
+
+import logger
 from mirror import Mirror
 from builder import Builder
 from logger import Logger
-from conf import MIRRORS_URL, BRANCHES, UA, REPO_ROOT
+from conf import MIRRORS_URL, BRANCHES, HEADERS, REPO_ROOT
+
+socket.setdefaulttimeout(20)
+
+
+def acquire_lock(lock_path="/tmp/manjaro-web-repo.lock"):
+    lock_file = open(lock_path, "w")
+    try:
+        fcntl.flock(lock_file.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+        return lock_file
+    except BlockingIOError:
+        logger = Logger()
+        logger.info("Another instance of manjaro-web-repo is already running. Exiting.")
+        sys.exit(0)
 
 
 class StatusChecker:
@@ -24,16 +42,16 @@ class StatusChecker:
 
     def get_mirrors(self):
         """Get list of mirrors"""
-        req = urllib.request.Request(MIRRORS_URL)
-        req.add_header('User-Agent', UA)
+        req = Request(MIRRORS_URL)
+        req.headers = HEADERS
         try:
-            with urllib.request.urlopen(req, timeout=10) as mirrors_file:
+            with urlopen(req, timeout=10) as mirrors_file:
                 self.mirrors = json.loads(mirrors_file.read().decode("utf-8"),
                                           object_pairs_hook=OrderedDict)
-        except (urllib.error.URLError, socket.timeout) as e:
+        except (HTTPError, URLError, socket.timeout) as e:
             self.logger.error("can't fetch list of mirrors", e)
 
-    def get_hashes(self):
+    def get_master_hashes(self):
         """Get last hashes"""
         for branch in BRANCHES:
             try:
@@ -49,13 +67,15 @@ class StatusChecker:
 
     def check_mirrors(self):
         """Check each mirror"""
+        self.mirrors.sort(key=lambda x: x["country"])
         nb = len(self.mirrors)
         for i, mirror in enumerate(self.mirrors):
             print("({}/{}): {}".format(i + 1, nb, mirror["url"]))
             mirror = Mirror(mirror)
             if mirror.country not in self.countries:
                 self.countries.append(mirror.country)
-            mirror.get_state_file()
+            if not mirror.get_global_state_file():
+                continue
             mirror.read_state_file(self.hashes)
             mirror_status = {
                 "url": mirror.url,
@@ -65,14 +85,19 @@ class StatusChecker:
                 "branches": mirror.branches
             }
             self.states.append(mirror_status)
-        self.logger.info("{} mirror(s) added".format(len(self.states)))
+        self.logger.info("{} mirror(s) checked".format(len(self.states)))
 
 
 if __name__ == "__main__":
+    _lock = acquire_lock()
     status_checker = StatusChecker()
+    begin = datetime.datetime.now()
+    status_checker.logger.info("Starting mirror status check at {}".format(begin))
     status_checker.get_mirrors()
-    status_checker.get_hashes()
+    status_checker.get_master_hashes()
     status_checker.check_mirrors()
     builder = Builder(status_checker.states, status_checker.countries)
     builder.generate_output()
+    status_checker.logger.info("Time spent {}".format(datetime.datetime.now() - begin))
+    status_checker.logger.info("Ending mirror status check at {}".format(datetime.datetime.now()))
     status_checker.logger.close()
