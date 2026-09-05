@@ -21,6 +21,7 @@ class Mirror:
         self.country = mirror["country"]
         self.protocols = mirror["protocols"]
         self.last_sync = str()
+        self.last_sync_age = -1
         self.branches = list()
 
     @staticmethod
@@ -80,6 +81,7 @@ class Mirror:
                     now_utc_naive = datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None)
                     seconds = (now_utc_naive - mirror_date).total_seconds()
                     minutes = seconds // 60
+                    self.last_sync_age = int(minutes // 60)
                     elapsed_hours = str(int(minutes // 60)).zfill(2)
                     elapsed_minutes = str(int(minutes % 60)).zfill(2)
                     self.last_sync = f"{elapsed_hours}:{elapsed_minutes}"

@@ -13,7 +13,7 @@ import logger
 from mirror import Mirror
 from builder import Builder
 from logger import Logger
-from conf import MIRRORS_URL, BRANCHES, HEADERS, REPO_ROOT, GLOBAL_TIMEOUT
+from conf import MIRRORS_URL, BRANCHES, HEADERS, REPO_ROOT, GLOBAL_TIMEOUT, MIRROR_GRACE_PERIOD
 
 socket.setdefaulttimeout(GLOBAL_TIMEOUT)
 
@@ -76,6 +76,9 @@ class StatusChecker:
             if not mirror.get_global_state_file():
                 continue
             mirror.read_state_file(self.hashes)
+            if mirror.last_sync_age > MIRROR_GRACE_PERIOD:
+                self.logger.info(f"Skipping mirror {mirror.url} (last sync age: {mirror.last_sync_age} hours)")
+                continue
             mirror_status = {
                 "url": mirror.url,
                 "protocols": mirror.protocols,
@@ -91,12 +94,10 @@ if __name__ == "__main__":
     _lock = acquire_lock()
     status_checker = StatusChecker()
     begin = datetime.datetime.now()
-    status_checker.logger.info("Starting mirror status check at {}".format(begin))
     status_checker.get_mirrors()
     status_checker.get_master_hashes()
     status_checker.check_mirrors()
     builder = Builder(status_checker.states, status_checker.countries)
     builder.generate_output()
     status_checker.logger.info("Time spent {}".format(datetime.datetime.now() - begin))
-    status_checker.logger.info("Ending mirror status check at {}".format(datetime.datetime.now()))
     status_checker.logger.close()

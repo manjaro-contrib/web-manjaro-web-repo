@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+MIRROR_GRACE_PERIOD = 720
 MIRRORS_URL = "https://repo.manjaro.org/mirrors.json"
 BRANCHES = ("stable", "testing", "unstable")
 ROOT_FOLDER = "/var/www/manjaro-web-repo/"
