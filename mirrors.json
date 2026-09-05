@@ -630,14 +630,6 @@
             "https",
             "http"
         ],
-        "url": "https://ftp.caliu.cat/pub/distribucions/manjaro/"
-    },
-    {
-        "country": "Spain",
-        "protocols": [
-            "https",
-            "http"
-        ],
         "url": "https://mirror.raiolanetworks.com/manjaro/"
     },
     {
